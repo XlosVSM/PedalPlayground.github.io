@@ -637,9 +637,9 @@ function convertUnits() {
 
 // Toggle pedal list grouping
 function toggleSearch() {
-	var byEffect = $("#toggle-search").is(":checked");
+	var searchByEffect = $("#toggle-search").is(":checked");
 
-	buildPedalList(byEffect ? "Effect" : "Brand");
+	buildPedalList(searchByEffect ? "Effect" : "Brand");
 }
 
 window.Pedal = function (type, brand, name, effect, width, height, image) {
