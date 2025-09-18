@@ -368,7 +368,7 @@ $(function () {
 	// On keydown of "]", move pedal front
 	$("body").on("keydown keyup", function (event) {
 		if (event.which == 221) {
-			$(".panel a[href='#front']").click();
+			$(".panel a[href='#front']").trigger("click");
 			savePedalCanvas();
 		}
 	});
@@ -484,7 +484,7 @@ function readyCanvas() {
 		if (target.is(".delete")) {
 			deletePedal(this);
 			deselect();
-			$("body").click();
+			$("body").trigger("click");
 		} else if (target.is(".rotate")) {
 			event.stopPropagation();
 
