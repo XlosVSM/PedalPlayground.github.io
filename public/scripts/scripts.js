@@ -2,8 +2,7 @@ var pedalImagePath = "public/images/pedals/";
 var pedalboardImagePath = "public/images/pedalboards/";
 var units = 'in';
 
-$(document).ready(function () {
-	
+$(function () {
 	// Populate Pedalboards and Pedals lists
 	GetPedalData();
 	GetPedalBoardData();
@@ -16,8 +15,8 @@ $(document).ready(function () {
 	});
 
 	$(".pedal-list").on("select2:select", function (e) {
-		$("#add-selected-pedal").click();
-		$(this).trigger("change").focus();
+		$("#add-selected-pedal").trigger("click");
+		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
 	});
 
@@ -27,8 +26,8 @@ $(document).ready(function () {
 	});
 
 	$(".pedalboard-list").on("select2:select", function (e) {
-		$("#add-selected-pedalboard").click();
-		$(this).trigger("change").focus();
+		$("#add-selected-pedalboard").trigger("click");
+		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
 	});
 
@@ -59,7 +58,7 @@ $(document).ready(function () {
 	});
 
 	// When user changes scale, update stuffs
-	$("#canvas-scale").change(function () {
+	$("#canvas-scale").on("change", function () {
 		// update var
 		var multiplier = $(this).val();
 		$("#multiplier").val(multiplier);
@@ -648,7 +647,7 @@ window.GetPedalData = function () {
 		dataType: "text",
 		type: "GET",
 		success: function (data) {
-			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
+			data = JSON.parse(data.replace(/\r\n/g, "").replace(/\t/g, ""));
 			var pedals = [];
 			for (var pedal in data) {
 				pedals.push(
@@ -719,7 +718,7 @@ window.GetPedalBoardData = function () {
 		dataType: "text",
 		type: "GET",
 		success: function (data) {
-			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
+			data = JSON.parse(data.replace(/\r\n/g, "").replace(/\t/g, ""));
 			var pedalboards = [];
 			for (var pedalboard in data) {
 				pedalboards.push(
@@ -908,7 +907,7 @@ $("body").on("click", 'a[href="#back"]', function (e) {
 	e.stopPropagation();
 });
 
-$("body").click(function () {
+$("body").on("click", function () {
 	// reset stuff
 	$(".item-info").remove();
 	$(".canvas .selected").removeClass("selected");
