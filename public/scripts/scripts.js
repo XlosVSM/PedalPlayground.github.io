@@ -58,6 +58,10 @@ $(document).ready(function () {
 		convertUnits();
 	});
 
+	$("#toggle-search").on("change", function() {
+		toggleSearch();
+	})
+
 	// When user changes scale, update stuffs
 	$("#canvas-scale").change(function () {
 		// update var
@@ -631,15 +635,86 @@ function convertUnits() {
 	}
 }
 
+// Toggle pedal list grouping
+function toggleSearch() {
+	var searchByEffect = $("#toggle-search").is(":checked");
 
-window.Pedal = function (type, brand, name, width, height, image) {
+	buildPedalList(searchByEffect ? "Effect" : "Brand");
+}
+
+window.Pedal = function (type, brand, name, effect, width, height, image) {
 	this.Type = type || "";
 	this.Brand = brand || "";
 	this.Name = name || "";
+	this.Effect = effect || "";
 	this.Width = width || "";
 	this.Height = height || "";
 	this.Image = image || "";
 };
+
+// Updated pedal list builder to change grouping by Brand or Effect
+function buildPedalList(groupBy) {
+	if ($(".pedal-list").data("select2")) {
+		$(".pedal-list").select2("destroy");
+	}
+	$(".pedal-list").empty();
+
+	if (!window.pedalData || !window.pedalData.length) return;
+
+	// Group pedals by Brand or Effect
+	var groups = {};
+	window.pedalData.forEach(
+		function (p) {
+			var key = p[groupBy] || "Unknown";
+
+			groups[key] = groups[key] || [];
+			groups[key].push(p);
+		}
+	);
+
+	// Rerender groups
+	Object.keys(groups)
+		.sort(
+			function (a, b) {
+				return a.localeCompare(b);
+			}
+		)
+		.forEach(
+			function (groupName) {
+				var $optgroup = $("<optgroup>").attr("label", groupName);
+
+				// Sort pedals
+				groups[groupName].sort(
+					function (a, b) {
+						if (a.Brand < b.Brand) return -1;
+						if (a.Brand > b.Brand) return 1;
+						if (a.Name < b.Name) return -1;
+						if (a.Name > b.Name) return 1;
+						return 0;
+					}
+				);
+
+				groups[groupName].forEach(
+					function (p) {
+						var $option = $("<option>")
+							.text(p.Brand + " " + p.Name)
+							.attr("data-width", p.Width)
+							.attr("data-height", p.Height)
+							.attr("data-image", p.Image);
+
+						$optgroup.append($option);
+					}
+				);
+
+				$(".pedal-list").append($optgroup);
+			}
+		);
+
+	$(".pedal-list").select2({
+		placeholder: "Select a pedal",
+		width: "style",
+	});
+}
 
 window.GetPedalData = function () {
 	// console.log('GetPedalData');
@@ -650,19 +725,24 @@ window.GetPedalData = function () {
 		success: function (data) {
 			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
 			var pedals = [];
+
 			for (var pedal in data) {
+				var d = data[pedal];
+				
 				pedals.push(
 					new Pedal(
-						data[pedal].Type || "",
-						data[pedal].Brand || "",
-						data[pedal].Name || "",
-						data[pedal].Width || "",
-						data[pedal].Height || "",
-						data[pedal].Image || ""
+						d.Type || "",
+						d.Brand || "",
+						d.Name || "",
+						d.Effect || "",
+						d.Width || "",
+						d.Height || "",
+						d.Image || ""
 					)
 				);
 			}
-			//Sort brands and pedals alphabetically
+
+			// Sort brands and pedals alphabetically
 			pedals.sort(function (a, b) {
 				if (a.Brand < b.Brand) {
 					return -1;
@@ -677,14 +757,18 @@ window.GetPedalData = function () {
 					return 0;
 				}
 			});
-			pedals.forEach(RenderPedals);
+
+			window.pedalData = pedals;
+			var initialGroup = $("#toggle-search").is(":checked") ? "Effect" : "Brand";
+
+			buildPedalList(initialGroup);
 			listPedals(pedals);
 		},
 	});
 };
 
 window.RenderPedals = function (pedals) {
-	var { Type, Brand, Name, Width, Height, Image } = pedals;
+	var { Type, Brand, Name, Effect, Width, Height, Image } = pedals;
 	var option = $("<option>", {
 		text: `${Brand} ${Name}`,
 		// id: `${Name.toLowerCase().replace(/(\s+)|(['"])/g, (m, p1, p2) => p1 ? "-" : "")}`,
