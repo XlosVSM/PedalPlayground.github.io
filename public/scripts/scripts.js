@@ -632,10 +632,11 @@ function convertUnits() {
 }
 
 
-window.Pedal = function (type, brand, name, width, height, image) {
+window.Pedal = function (type, brand, name, variation, width, height, image) {
 	this.Type = type || "";
 	this.Brand = brand || "";
 	this.Name = name || "";
+	this.Variation = variation || "";
 	this.Width = width || "";
 	this.Height = height || "";
 	this.Image = image || "";
@@ -650,12 +651,14 @@ window.GetPedalData = function () {
 		success: function (data) {
 			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
 			var pedals = [];
+
 			for (var pedal in data) {
 				pedals.push(
 					new Pedal(
 						data[pedal].Type || "",
 						data[pedal].Brand || "",
 						data[pedal].Name || "",
+						data[pedal].Variation || "",
 						data[pedal].Width || "",
 						data[pedal].Height || "",
 						data[pedal].Image || ""
@@ -677,6 +680,7 @@ window.GetPedalData = function () {
 					return 0;
 				}
 			});
+
 			pedals.forEach(RenderPedals);
 			listPedals(pedals);
 		},
@@ -684,9 +688,10 @@ window.GetPedalData = function () {
 };
 
 window.RenderPedals = function (pedals) {
-	var { Type, Brand, Name, Width, Height, Image } = pedals;
+	var { Type, Brand, Name, Variation, Width, Height, Image } = pedals;
+	var displayName = Variation ? `${Brand} ${Name} (${Variation})` : `${Brand} ${Name}`;
 	var option = $("<option>", {
-		text: `${Brand} ${Name}`,
+		text: displayName,
 		// id: `${Name.toLowerCase().replace(/(\s+)|(['"])/g, (m, p1, p2) => p1 ? "-" : "")}`,
 		data: {
 			width: Width,
@@ -694,6 +699,7 @@ window.RenderPedals = function (pedals) {
 			image: Image,
 		},
 	});
+
 	if ($("optgroup").is(`[label="${Brand}"]`)) {
 		$(`optgroup[label="${Brand}"]`).append(option);
 	} else {
