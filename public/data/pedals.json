@@ -8,86 +8,74 @@
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Alt Universe)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Alt Universe",
 		"Image": "1981-inventions-drv-alt-universe.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Blackout)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Blackout",
 		"Image": "1981-inventions-drv-blackout.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Fractured)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Fractured",
 		"Image": "1981-inventions-drv-fractured.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Hyperfade)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Hyperfade",
 		"Image": "1981-inventions-drv-hyperfade.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Hyperfade white)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Hyperfade White",
 		"Image": "1981-inventions-drv-hyperfade-white.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Outline)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Outline",
 		"Image": "1981-inventions-drv-outline.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Pink)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Pink",
 		"Image": "1981-inventions-drv-pink.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Seafoam Green)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Seafoam Green",
 		"Image": "1981-inventions-drv-seafoam-green.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Sky Blue Sky)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Sky Blue Sky",
 		"Image": "1981-inventions-drv-sky-blue-sky.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (Teal)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "Teal",
 		"Image": "1981-inventions-drv-teal.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (White No3)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "White No3",
 		"Image": "1981-inventions-drv-white-no3.png"
 	},
 	{
 		"Brand": "1981 Inventions",
-		"Name": "DRV (White/Pink No3)",
-		"Width": 3.7,
-		"Height": 4.58,
+		"Name": "DRV",
+		"Variation": "White/Pink No3",
 		"Image": "1981-inventions-drv-white-pink-no3.png"
 	},
 	{
@@ -4876,7 +4864,7 @@
 		"Name": "Pig",
 		"Width": 2.6,
 		"Height": 4.97,
-		"Image": "bluecolander-pig.png"
+		"Image": "blue-colander-pig.png"
 	},
 	{
 		"Brand": "Blue Colander",
