@@ -3,7 +3,6 @@ var pedalboardImagePath = "public/images/pedalboards/";
 var units = 'in';
 
 $(document).ready(function () {
-	
 	// Populate Pedalboards and Pedals lists
 	GetPedalData();
 	GetPedalBoardData();
@@ -16,8 +15,8 @@ $(document).ready(function () {
 	});
 
 	$(".pedal-list").on("select2:select", function (e) {
-		$("#add-selected-pedal").click();
-		$(this).trigger("change").focus();
+		$("#add-selected-pedal").trigger("click");
+		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
 	});
 
@@ -27,8 +26,8 @@ $(document).ready(function () {
 	});
 
 	$(".pedalboard-list").on("select2:select", function (e) {
-		$("#add-selected-pedalboard").click();
-		$(this).trigger("change").focus();
+		$("#add-selected-pedalboard").trigger("click");
+		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
 	});
 
@@ -365,7 +364,7 @@ $(document).ready(function () {
 	// On keydown of "[", move pedal back
 	$("body").on("keydown keyup", function (event) {
 		if (event.which == 219) {
-			$(".panel a[href='#back']").click();
+			$(".panel a[href='#back']").trigger("click");
 			savePedalCanvas();
 		}
 	});
@@ -373,7 +372,7 @@ $(document).ready(function () {
 	// On keydown of "]", move pedal front
 	$("body").on("keydown keyup", function (event) {
 		if (event.which == 221) {
-			$(".panel a[href='#front']").click();
+			$(".panel a[href='#front']").trigger("click");
 			savePedalCanvas();
 		}
 	});
@@ -489,7 +488,7 @@ function readyCanvas() {
 		if (target.is(".delete")) {
 			deletePedal(this);
 			deselect();
-			$("body").click();
+			$("body").trigger("click");
 		} else if (target.is(".rotate")) {
 			event.stopPropagation();
 
@@ -803,7 +802,7 @@ window.GetPedalBoardData = function () {
 		dataType: "text",
 		type: "GET",
 		success: function (data) {
-			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
+			data = JSON.parse(data.replace(/\r\n/g, "").replace(/\t/g, ""));
 			var pedalboards = [];
 			for (var pedalboard in data) {
 				pedalboards.push(
@@ -894,7 +893,7 @@ window.listPedals = function (pedals) {
 var GenRandom = {
 	Stored: [],
 	Job: function () {
-		var newId = Date.now().toString().substr(3); // or use any method that you want to achieve this string
+		var newId = Date.now().toString().slice(3); // or use any method that you want to achieve this string
 		if (!this.Check(newId)) {
 			this.Stored.push(newId);
 			return newId;
