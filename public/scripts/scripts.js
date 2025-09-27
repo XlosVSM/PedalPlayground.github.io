@@ -2,7 +2,7 @@ var pedalImagePath = "public/images/pedals/";
 var pedalboardImagePath = "public/images/pedalboards/";
 var units = 'in';
 
-$(document).ready(function () {
+jQuery(function () {
 	// Populate Pedalboards and Pedals lists
 	GetPedalData();
 	GetPedalBoardData();
