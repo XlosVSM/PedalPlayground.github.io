@@ -3616,6 +3616,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Bass Brassmaster Fuzz",
+		"Effect": "Fuzz",
 		"Width": 4.72,
 		"Height": 4.17,
 		"Image": "behringer-bass-brassmaster-fuzz.png"
@@ -3749,6 +3750,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Fuzz Bender",
+		"Effect": "Fuzz",
 		"Width": 3.5,
 		"Height": 6.98,
 		"Image": "behringer-fuzz-bender.png"
@@ -3812,6 +3814,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "SF300 Super Fuzz",
+		"Effect": "Fuzz",
 		"Width": 2.76,
 		"Height": 4.84,
 		"Image": "behringer-sf300.png"
@@ -8055,6 +8058,7 @@
 	{
 		"Brand": "Catalinbread",
 		"Name": "StarCrash Fuzz",
+		"Effect": "Fuzz",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-starcrash-fuzz.png"
@@ -8062,6 +8066,7 @@
 	{
 		"Brand": "Catalinbread",
 		"Name": "StarCrash Fuzz ('70s Collection)",
+		"Effect": "Fuzz",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-starcrash-sc.png"
@@ -10528,6 +10533,7 @@
 	{
 		"Brand": "Deadbeat Sound",
 		"Name": "Delay Lay Lay",
+		"Effect": "Delay",
 		"Width": 2.36,
 		"Height": 3.84,
 		"Image": "deadbeat-delay-lay-lay.png"
@@ -10549,6 +10555,7 @@
 	{
 		"Brand": "Deadbeat Sound",
 		"Name": "Playback",
+		"Effect": "Looper",
 		"Width": 1.98,
 		"Height": 3.7,
 		"Image": "deadbeat-playback.png"
@@ -14619,6 +14626,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "1440 Stereo Looper",
+		"Effect": "Looper",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-1440.png"
@@ -14649,6 +14657,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "22500 Dual Stereo Looper",
+		"Effect": "Looper",
 		"Width": 6.07,
 		"Height": 5.04,
 		"Image": "ehx-22500.png"
@@ -14677,6 +14686,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "720 Stereo Looper",
+		"Effect": "Looper",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-720.png"
@@ -14719,6 +14729,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Bad Stone",
+		"Effect": "Phaser",
 		"Width": 2.82,
 		"Height": 4.5,
 		"Image": "ehx-bad-stone.png"
@@ -14726,6 +14737,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Bass Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-bass-big-muff-pi.png"
@@ -14733,6 +14745,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Bass Clone",
+		"Effect": "Chorus",
 		"Width": 2.82,
 		"Height": 4.5,
 		"Image": "ehx-bass-clone.png"
@@ -14789,6 +14802,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi Hardware Plugin",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.87,
 		"Image": "ehx-big-muff-pi-hardware-plugin.png"
@@ -14796,6 +14810,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi with Tone Wicker",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-big-muff-pi-tone-wicker.png"
@@ -14803,6 +14818,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi (Big Box)",
+		"Effect": "Fuzz",
 		"Width": 5.5,
 		"Height": 6.93,
 		"Image": "ehx-big-muff-box.png"
@@ -14810,6 +14826,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi (Double Anniversary)",
+		"Effect": "Fuzz",
 		"Width": 5.5,
 		"Height": 7.02,
 		"Image": "ehx-big-muff-box-double-anniversary.png"
@@ -14817,6 +14834,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Black Russian Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 4.75,
 		"Height": 6.62,
 		"Image": "ehx-black-russian.png"
@@ -14887,6 +14905,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-big-muff.png"
@@ -14894,6 +14913,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Bass Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-bass-big-muff.png"
@@ -14901,6 +14921,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Electric Mistress",
+		"Effect": "Flanger",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-mistress.png"
@@ -14915,6 +14936,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Memory Boy",
+		"Effect": "Delay",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-memory-boy.png"
@@ -15020,6 +15042,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Germanium Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-germanium-big-muff-pi.png"
@@ -15062,6 +15085,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Green Russian Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 5,
 		"Height": 6.875,
 		"Image": "ehx-green-russian-original.png"
@@ -15069,6 +15093,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Green Russian Big Muff Pi Reissue",
+		"Effect": "Fuzz",
 		"Width": 2.82,
 		"Height": 4.5,
 		"Image": "ehx-green-russian.png"
@@ -15090,6 +15115,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Hog2",
+		"Effect": "Pitch Shifting",
 		"Width": 9.5,
 		"Height": 6.38,
 		"Image": "ehx-hog2.png"
@@ -15104,6 +15130,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Holy Grail",
+		"Effect": "Reverb",
 		"Width": 3.375,
 		"Height": 5.42,
 		"Image": "ehx-holy-grail.png"
@@ -15216,6 +15243,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Little Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-little-big-muff-pi.png"
@@ -22707,6 +22735,7 @@
 	{
 		"Brand": "Ibanez",
 		"Name": "TS9 Tube Screamer",
+		"Effect": "Overdrive",
 		"Width": 3,
 		"Height": 4.9,
 		"Image": "ibanez-ts9.png"
@@ -24650,6 +24679,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "NOTAKLÖN",
+		"Effect": "Overdrive",
 		"Width": 4.7,
 		"Height": 3.86,
 		"Image": "jhs-notaklon.png"
@@ -24657,6 +24687,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "NOTAKLÖN (Black)",
+		"Effect": "Overdrive",
 		"Width": 4.7,
 		"Height": 3.86,
 		"Image": "jhs-notaklon-black.png"
@@ -27416,6 +27447,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "Centaur",
+		"Effect": "Overdrive",
 		"Width": 6.5,
 		"Height": 5.03,
 		"Image": "klon-centaur.png"
@@ -27423,6 +27455,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "Centaur (Gold)",
+		"Effect": "Overdrive",
 		"Width": 6.5,
 		"Height": 5.03,
 		"Image": "klon-centaur-gold.png"
@@ -27430,6 +27463,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "Centaur (Horsey)",
+		"Effect": "Overdrive",
 		"Width": 6.5,
 		"Height": 5.03,
 		"Image": "klon-centaur-horsey.png"
@@ -27437,6 +27471,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "KTR",
+		"Effect": "Overdrive",
 		"Width": 3.73,
 		"Height": 4.88,
 		"Image": "klon-ktr.png"
@@ -28578,6 +28613,7 @@
 	{
 		"Brand": "Line 6",
 		"Name": "DL4 Delay",
+		"Effect": "Delay",
 		"Width": 10,
 		"Height": 6,
 		"Image": "line6-dl4.png"
@@ -28585,6 +28621,7 @@
 	{
 		"Brand": "Line 6",
 		"Name": "DL4 Delay MkII",
+		"Effect": "Delay",
 		"Width": 9.25,
 		"Height": 4.5,
 		"Image": "line6-dl4-mk2.png"
@@ -43112,6 +43149,7 @@
 	{
 		"Brand": "Source Audio",
 		"Name": "Soundblox 2 Stingray Multi-Filter",
+		"Effect": "Envelope Filter",
 		"Width": 4.5,
 		"Height": 4.5,
 		"Image": "source-audio-sb2-stingray.png"
@@ -43119,6 +43157,7 @@
 	{
 		"Brand": "Source Audio",
 		"Name": "Soundblox Bass Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 4,
 		"Height": 7	,
 		"Image": "source-audio-sb-bass-env.png"
@@ -50250,6 +50289,7 @@
 	{
 		"Brand": "Walrus Audio",
 		"Name": "MAKO Series: R1",
+		"Effect": "Reverb",
 		"Width": 2.87,
 		"Height": 4.9,
 		"Image": "walrus-r1.png"
@@ -50257,6 +50297,7 @@
 	{
 		"Brand": "Walrus Audio",
 		"Name": "MAKO Series: R1 MK2",
+		"Effect": "Reverb",
 		"Width": 2.85,
 		"Height": 4.9,
 		"Image": "walrus-r1-mk2.png"
@@ -51987,6 +52028,7 @@
 	{
 		"Brand": "Yamaha",
 		"Name": "CH-01 Chorus",
+		"Effect": "Chorus",
 		"Width": 2.75591,
 		"Height": 5.07874,
 		"Image": "yamaha-ch01.png"
@@ -51994,6 +52036,7 @@
 	{
 		"Brand": "Yamaha",
 		"Name": "CH-100 Chorus",
+		"Effect": "Chorus",
 		"Width": 2.81,
 		"Height": 5,
 		"Image": "yamaha-ch100.png"
@@ -52395,6 +52438,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fat Fuzz Factory Vexter",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fat-fuzzfactory-vexter.png"
@@ -52402,6 +52446,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fuzzfactory.png"
@@ -52409,6 +52454,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory 7",
+		"Effect": "Fuzz",
 		"Width": 3.64,
 		"Height": 4.8,
 		"Image": "zvex-fuzzfactory7.png"
@@ -52416,6 +52462,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory 7 Vexter",
+		"Effect": "Fuzz",
 		"Width": 3.64,
 		"Height": 4.8,
 		"Image": "zvex-fuzzfactory7-vexter.png"
@@ -52423,6 +52470,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vertical",
+		"Effect": "Fuzz",
 		"Width": 2.69,
 		"Height": 4.5,
 		"Image": "zvex-fuzzfactory-vertical.png"
@@ -52430,6 +52478,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vertical (Russian Hybrid)",
+		"Effect": "Fuzz",
 		"Width": 2.69,
 		"Height": 4.5,
 		"Image": "zvex-russian-fuzz-factory.png"
@@ -52437,6 +52486,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vexter",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fuzzfactory-vexter.png"
@@ -52444,6 +52494,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vexter (Silver)",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fuzzfactory-vexter-silver.png"
@@ -52626,6 +52677,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Woolly Mammoth",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-woollymammoth.png"
@@ -52633,6 +52685,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Woolly Mammoth 7",
+		"Effect": "Fuzz",
 		"Width": 3.64,
 		"Height": 4.8,
 		"Image": "zvex-woollymammoth7.png"
@@ -52640,6 +52693,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Woolly Mammoth Vexter",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-woollymammoth-vexter.png"
