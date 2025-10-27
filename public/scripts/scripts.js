@@ -641,14 +641,22 @@ function toggleSearch() {
 	buildPedalList(searchByEffect ? "Effect" : "Brand");
 }
 
-window.Pedal = function (type, brand, name, effect, width, height, image) {
+window.Pedal = function (type, brand, name, effect, width, height, image, variations) {
 	this.Type = type || "";
 	this.Brand = brand || "";
 	this.Name = name || "";
 	this.Effect = effect || "";
 	this.Width = width || "";
 	this.Height = height || "";
-	this.Image = image || "";
+
+	if (Array.isArray(variations) && variations.length > 0) {
+		this.Variations = variations;
+		this.Image= "";
+	}
+	else {
+		this.Variations = [];
+		this.Image = image || "";
+	}
 };
 
 // Updated pedal list builder to change grouping by Brand or Effect
