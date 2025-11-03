@@ -2,6 +2,10 @@ const pedalImagePath = "public/images/pedals/";
 const pedalboardImagePath = "public/images/pedalboards/";
 let units = 'in';
 
+// Cache jQuery selectors
+const $pedalList = $(".pedal-list");
+const $pedalboardList = $(".pedalboard-list");
+
 jQuery(function () {
 	// Populate Pedalboards and Pedals lists
 	GetPedalData();
@@ -9,23 +13,23 @@ jQuery(function () {
 	convertUnits();
 
 	// Make lists searchable
-	$(".pedal-list").select2({
+	$pedalList.select2({
 		placeholder: "Select a pedal",
 		width: "style",
 	});
 
-	$(".pedal-list").on("select2:select", function (e) {
+	$pedalList.on("select2:select", function (e) {
 		$("#add-selected-pedal").trigger("click");
 		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
 	});
 
-	$(".pedalboard-list").select2({
+	$pedalboardList.select2({
 		placeholder: "Select a pedalboard",
 		width: "style",
 	});
 
-	$(".pedalboard-list").on("select2:select", function (e) {
+	$pedalboardList.on("select2:select", function (e) {
 		$("#add-selected-pedalboard").trigger("click");
 		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
@@ -653,10 +657,10 @@ window.Pedal = function (type, brand, name, effect, width, height, image) {
 
 // Updated pedal list builder to change grouping by Brand or Effect
 function buildPedalList(groupBy) {
-	if ($(".pedal-list").data("select2")) {
-		$(".pedal-list").select2("destroy");
+	if ($pedalList.data("select2")) {
+		$pedalList.select2("destroy");
 	}
-	$(".pedal-list").empty();
+	$pedalList.empty();
 
 	if (!window.pedalData || !window.pedalData.length) return;
 
@@ -705,11 +709,11 @@ function buildPedalList(groupBy) {
 					}
 				);
 
-				$(".pedal-list").append($optgroup);
+				$pedalList.append($optgroup);
 			}
 		);
 
-	$(".pedal-list").select2({
+	$pedalList.select2({
 		placeholder: "Select a pedal",
 		width: "style",
 	});
@@ -727,7 +731,7 @@ window.GetPedalData = function () {
 
 			for (var pedal in data) {
 				var d = data[pedal];
-				
+
 				pedals.push(
 					new Pedal(
 						d.Type || "",
