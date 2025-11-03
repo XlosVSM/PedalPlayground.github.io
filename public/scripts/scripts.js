@@ -5,6 +5,10 @@ let units = 'in';
 // Cache jQuery selectors
 const $pedalList = $(".pedal-list");
 const $pedalboardList = $(".pedalboard-list");
+const $body = $("body");
+const $convertUnits = $('#convert-units');
+const $multiplier = $("#multiplier");
+let multiplier;
 
 jQuery(function () {
 	// Populate Pedalboards and Pedals lists
@@ -18,7 +22,7 @@ jQuery(function () {
 		width: "style",
 	});
 
-	$pedalList.on("select2:select", function (e) {
+	$pedalList.on("select2:select", function () {
 		$("#add-selected-pedal").trigger("click");
 		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
@@ -29,7 +33,7 @@ jQuery(function () {
 		width: "style",
 	});
 
-	$pedalboardList.on("select2:select", function (e) {
+	$pedalboardList.on("select2:select", function () {
 		$("#add-selected-pedalboard").trigger("click");
 		$(this).trigger("change").trigger("focus");
 		//$(this).val(null).trigger('change').focus();
@@ -44,12 +48,12 @@ jQuery(function () {
 		}
 
 		// If hidden multiplier value doesn't exist, create it
-		if ($("#multiplier").length == 0) {
+		if ($multiplier.length == 0) {
 			$(".canvas").append('<input id="multiplier" type="hidden" value="32">');
-			var multiplier = 32;
+			multiplier = 32;
 			// If hidden multiplier value does exist set variable
 		} else {
-			var multiplier = $("#multiplier").val();
+			multiplier = $multiplier.val();
 		}
 
 		// Set canvas scale input and bg size to match scale
@@ -68,8 +72,8 @@ jQuery(function () {
 	// When user changes scale, update stuffs
 	$("#canvas-scale").change(function () {
 		// update var
-		var multiplier = $(this).val();
-		$("#multiplier").val(multiplier);
+		multiplier = $(this).val();
+		$multiplier.val(multiplier);
 
 		// Update scale of bg image
 		$(".canvas").css("background-size", multiplier + "px");
@@ -112,36 +116,36 @@ jQuery(function () {
 		savePedalCanvas();
 	});
 
-	$("body").on("click", ".sidebar-open", function (e) {
+	$body.on("click", ".sidebar-open", function (e) {
 		$(".site-body").addClass("is-slid");
 		e.preventDefault();
 	});
 
-	$("body").on("click", ".sidebar-close", function (e) {
+	$body.on("click", ".sidebar-close", function (e) {
 		$(".site-body").removeClass("is-slid");
 		e.preventDefault();
 	});
 
-	$("body").on("click", "#save-canvas", function (e) {
+	$body.on("click", "#save-canvas", function () {
 		const currentDate = new Date().toLocaleDateString() + new Date().toLocaleTimeString();
 
 		downloadPedalCanvas("Pedal Playground - " + currentDate + ".json");
 	});
 
-	$("body").on("click", "#load-canvas", function (e) {
+	$body.on("click", "#load-canvas", function () {
 		uploadPedalCanvas();
 		savePedalCanvas();
 		readyCanvas();
 	});
 
-	$("body").on("click", "#clear-canvas-confirmation", function () {
+	$body.on("click", "#clear-canvas-confirmation", function () {
 		$(".canvas").empty();
 		$("#clear-canvas-modal").modal("hide");
 		savePedalCanvas();
 	});
 
-	$("body").on("click", "#add-pedal button", function (event) {
-		var multiplier = $("#canvas-scale").val();
+	$body.on("click", "#add-pedal button", function (event) {
+		multiplier = $("#canvas-scale").val();
 		var serial = GenRandom.Job();
 		var selected = $("#add-pedal").find(":selected");
 		var name = $(selected).text();
@@ -186,9 +190,9 @@ jQuery(function () {
 		event.preventDefault();
 	});
 
-	$("body").on("click", "#add-pedalboard button", function (event) {
+	$body.on("click", "#add-pedalboard button", function (event) {
 		var serial = GenRandom.Job();
-		var multiplier = $("#canvas-scale").val();
+		multiplier = $("#canvas-scale").val();
 		var selected = $("#add-pedalboard").find(":selected");
 		var name = $(selected).text();
 		var shortname = $(selected).attr("id");
@@ -238,9 +242,9 @@ jQuery(function () {
 	});
 
 	// Add custom pedal
-	$("body").on("click", "#add-custom-pedal .btn", function (event) {
+	$body.on("click", "#add-custom-pedal .btn", function (event) {
 		var serial = GenRandom.Job();
-		var multiplier = $("#canvas-scale").val();
+		multiplier = $("#canvas-scale").val();
 		var width = convertUnitsIfNeeded("down", $("#add-custom-pedal .custom-width").val() );
 		var height = convertUnitsIfNeeded("down", $("#add-custom-pedal .custom-height").val() );
 		var scaledWidth = width * multiplier;
@@ -305,9 +309,9 @@ jQuery(function () {
 	});
 
 	// Add custom pedalboard
-	$("body").on("click", "#add-custom-pedalboard .btn", function (event) {
+	$body.on("click", "#add-custom-pedalboard .btn", function (event) {
 		var serial = GenRandom.Job();
-		var multiplier = $("#canvas-scale").val();
+		multiplier = $("#canvas-scale").val();
 		var width = convertUnitsIfNeeded('down', $("#add-custom-pedalboard .custom-width").val());
 		var height = convertUnitsIfNeeded('down',$("#add-custom-pedalboard .custom-height").val());
 		var scaledWidth = width * multiplier;
@@ -357,7 +361,7 @@ jQuery(function () {
 	});
 
 	// On keydown of "D" or "delete" remove pedal
-	$("body").on("keydown keyup", function (event) {
+	$body.on("keydown keyup", function (event) {
 		if (event.which == 68 || event.which == 8) {
 			deleteSelected();
 			$(".site-body > .item-info").remove();
@@ -366,7 +370,7 @@ jQuery(function () {
 	});
 
 	// On keydown of "[", move pedal back
-	$("body").on("keydown keyup", function (event) {
+	$body.on("keydown keyup", function (event) {
 		if (event.which == 219) {
 			$(".panel a[href='#back']").trigger("click");
 			savePedalCanvas();
@@ -374,7 +378,7 @@ jQuery(function () {
 	});
 
 	// On keydown of "]", move pedal front
-	$("body").on("keydown keyup", function (event) {
+	$body.on("keydown keyup", function (event) {
 		if (event.which == 221) {
 			$(".panel a[href='#front']").trigger("click");
 			savePedalCanvas();
@@ -387,7 +391,7 @@ jQuery(function () {
 	// 40 - down
 
 	// Move left
-	$("body").on("keydown", function (event) {
+	$body.on("keydown", function (event) {
 		if (event.which == 37) {
 			var current = parseInt($(".canvas .selected").css("left"));
 			$(".canvas .selected").css("left", current - 1);
@@ -396,7 +400,7 @@ jQuery(function () {
 	});
 
 	// Move up
-	$("body").on("keydown", function (event) {
+	$body.on("keydown", function (event) {
 		if (event.which == 38) {
 			var current = parseInt($(".canvas .selected").css("top"));
 			$(".canvas .selected").css("top", current - 1);
@@ -406,7 +410,7 @@ jQuery(function () {
 	});
 
 	// Move right
-	$("body").on("keydown", function (event) {
+	$body.on("keydown", function (event) {
 		if (event.which == 39) {
 			var current = parseInt($(".canvas .selected").css("left"));
 			$(".canvas .selected").css("left", current + 1);
@@ -415,7 +419,7 @@ jQuery(function () {
 	});
 
 	// Move down
-	$("body").on("keydown", function (event) {
+	$body.on("keydown", function (event) {
 		if (event.which == 40) {
 			var current = parseInt($(".canvas .selected").css("top"));
 			$(".canvas .selected").css("top", current + 1);
@@ -424,7 +428,7 @@ jQuery(function () {
 		}
 	});
 
-	$("body").on("keydown", function (event) {
+	$body.on("keydown", function (event) {
 		event.stopPropagation();
 
 		//mvital: in some cases click event is sent multiple times to the handler - no idea why
@@ -451,9 +455,9 @@ jQuery(function () {
 function convertUnitsIfNeeded(direction,value) {
 	switch(direction) {
 		case 'up':
-			return ( $('#convert-units').is(':checked') ) ? convertIn(value) : value;
+			return ( $convertUnits.is(':checked') ) ? convertIn(value) : value;
 		case 'down':
-			return ( $('#convert-units').is(':checked') ) ? convertMm(value) : value;
+			return ( $convertUnits.is(':checked') ) ? convertMm(value) : value;
 		default:
 			break;
 	}
@@ -478,13 +482,11 @@ function readyCanvas() {
 		containment: ".canvas",
 	});
 
-	$draggable.on("dragEnd", function (e) {
+	$draggable.on("dragEnd", function () {
 		//console.log("dragEnd");
 		ga("send", "event", "Canvas", "moved", "dragend");
 		savePedalCanvas();
 	});
-
-	// $draggable.on( 'staticClick', function(event) {
 
 	$draggable.on("staticClick", function (event) {
 		//rotatePedal(this);
@@ -492,7 +494,7 @@ function readyCanvas() {
 		if (target.is(".delete")) {
 			deletePedal(this);
 			deselect();
-			$("body").trigger("click");
+			$body.trigger("click");
 		} else if (target.is(".rotate")) {
 			event.stopPropagation();
 
@@ -562,10 +564,10 @@ function importPedalCanvas(file) {
 	reader.addEventListener(
 		"load",
 		() => {
-			blob = JSON.parse(reader.result);
+			const blob = JSON.parse(reader.result.toString());
 
 			// TODO: check source and version
-			
+
 			$(".canvas").html(blob.canvas);
 			readyCanvas();
 		},
@@ -586,21 +588,21 @@ function uploadPedalCanvas() {
 	input.click();
 }
 
-function rotatePedal(pedal) {
-	ga("send", "event", "Pedal", "clicked", "rotate");
-	if ($(pedal).hasClass("rotate-90")) {
-		$(pedal).removeClass("rotate-90");
-		$(pedal).addClass("rotate-180");
-	} else if ($(pedal).hasClass("rotate-180")) {
-		$(pedal).removeClass("rotate-180");
-		$(pedal).addClass("rotate-270");
-	} else if ($(pedal).hasClass("rotate-270")) {
-		$(pedal).removeClass("rotate-270");
-	} else {
-		$(pedal).addClass("rotate-90");
-	}
-	savePedalCanvas();
-}
+// function rotatePedal(pedal) {
+// 	ga("send", "event", "Pedal", "clicked", "rotate");
+// 	if ($(pedal).hasClass("rotate-90")) {
+// 		$(pedal).removeClass("rotate-90");
+// 		$(pedal).addClass("rotate-180");
+// 	} else if ($(pedal).hasClass("rotate-180")) {
+// 		$(pedal).removeClass("rotate-180");
+// 		$(pedal).addClass("rotate-270");
+// 	} else if ($(pedal).hasClass("rotate-270")) {
+// 		$(pedal).removeClass("rotate-270");
+// 	} else {
+// 		$(pedal).addClass("rotate-90");
+// 	}
+// 	savePedalCanvas();
+// }
 
 function deletePedal(pedal) {
 	$(pedal).remove();
@@ -621,7 +623,7 @@ function deleteSelected() {
 }
 
 function convertUnits() {
-	if ( $('#convert-units').is(':checked') ) {
+	if ( $convertUnits.is(':checked') ) {
 		units = 'mm';
 		$("label .units").text('(mm)');
 		$('#custom-pb-width').attr('placeholder',610);
@@ -727,10 +729,10 @@ window.GetPedalData = function () {
 		type: "GET",
 		success: function (data) {
 			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
-			var pedals = [];
+			const pedals = [];
 
-			for (var pedal in data) {
-				var d = data[pedal];
+			for (let pedal in data) {
+				let d = data[pedal];
 
 				pedals.push(
 					new Pedal(
@@ -861,8 +863,8 @@ window.listPedals = function (pedals) {
 		// console.log('List pedals...');
 		for (var i in pedals) {
 			multiplier = 40;
-			Width = pedals[i].Width * multiplier;
-			Height = pedals[i].Height * multiplier;
+			let Width = pedals[i].Width * multiplier;
+			let Height = pedals[i].Height * multiplier;
 
 			var $pedalListing = $(
 				'<div class="pedal-listing">\
@@ -912,9 +914,9 @@ var GenRandom = {
 	},
 };
 
-$("body").on("click", ".item", function (e) {
+$body.on("click", ".item", function (e) {
 
-	if ( $('#convert-units').is(':checked') ) {
+	if ( $convertUnits.is(':checked') ) {
 		units = 'mm';
 	} else {
 		units = 'in';
@@ -953,7 +955,7 @@ $("body").on("click", ".item", function (e) {
 	e.stopPropagation();
 });
 
-$("body").on("click", 'a[href="#rotate"]', function (e) {
+$body.on("click", 'a[href="#rotate"]', function (e) {
 	e.stopPropagation();
 	e.stopImmediatePropagation();
 
@@ -972,14 +974,14 @@ $("body").on("click", 'a[href="#rotate"]', function (e) {
 	savePedalCanvas();
 });
 
-$("body").on("click", 'a[href="#delete"]', function () {
+$body.on("click", 'a[href="#delete"]', function () {
 	var id = $(this).parents(".panel").data("id");
 	$(id).remove();
 	$(".item-info").remove();
 	savePedalCanvas();
 });
 
-$("body").on("click", 'a[href="#front"]', function (e) {
+$body.on("click", 'a[href="#front"]', function (e) {
 	e.stopImmediatePropagation();
 	var id = $(this).parents(".panel").data("id");
 	$(id).next().insertBefore(id);
@@ -987,7 +989,7 @@ $("body").on("click", 'a[href="#front"]', function (e) {
 	e.stopPropagation();
 });
 
-$("body").on("click", 'a[href="#back"]', function (e) {
+$body.on("click", 'a[href="#back"]', function (e) {
 	e.stopImmediatePropagation();
 	var id = $(this).parents(".panel").data("id");
 	$(id).prev().insertAfter(id);
@@ -995,18 +997,18 @@ $("body").on("click", 'a[href="#back"]', function (e) {
 	e.stopPropagation();
 });
 
-$("body").click(function () {
+$body.click(function () {
 	// reset stuff
 	$(".item-info").remove();
 	$(".canvas .selected").removeClass("selected");
 });
 
-$("body").on("click", ".canvas", function (e) {
+$body.on("click", ".canvas", function () {
 	$(".settings-popover").addClass("hide");
 	$(".settings-trigger").removeClass("open");
 });
 
-$("body").on("click", ".settings-trigger", function (e) {
+$body.on("click", ".settings-trigger", function (e) {
 	$(".settings-popover").removeClass("hide");
 	$(".settings-trigger").addClass("open");
 	e.preventDefault();
@@ -1014,7 +1016,7 @@ $("body").on("click", ".settings-trigger", function (e) {
 });
 
 
-$("body").on("click", ".settings-trigger.open", function (e) {
+$body.on("click", ".settings-trigger.open", function (e) {
 	$(".settings-popover").addClass("hide");
 	$(".settings-trigger").removeClass("open");
 	e.preventDefault();
