@@ -3595,6 +3595,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "69 Vibe",
+        "Effect": "Univibe",
 		"Width": 4.72,
 		"Height": 4.09,
 		"Image": "behringer-69-vibe.png"
@@ -3609,6 +3610,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "B-Tron III Envelope Filter",
+        "Effect": "Envelope Filter",
 		"Width": 3.94,
 		"Height": 6.89,
 		"Image": "behringer-btron3.png"
@@ -3659,6 +3661,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Centara Overdrive",
+        "Effect": "Overdrive",
 		"Width": 4.75,
 		"Height": 4.11,
 		"Image": "behringer-centara-overdrive.png"
@@ -3666,6 +3669,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Centaur Overdrive",
+        "Effect": "Overdrive",
 		"Width": 4.75,
 		"Height": 4.12,
 		"Image": "behringer-centaur-overdrive.png"
@@ -3844,6 +3848,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "UC200 Ultra Chorus",
+        "Effect": "Chorus",
 		"Width": 2.76,
 		"Height": 4.84,
 		"Image": "behringer-uc200.png"
@@ -9754,6 +9759,7 @@
 	{
 		"Brand": "Crowther",
 		"Name": "Hotcake V1",
+        "Effect": "Overdrive",
 		"Width": 2.72,
 		"Height": 4.5,
 		"Image": "crowther-hotcake-v1.png"
@@ -9761,6 +9767,7 @@
 	{
 		"Brand": "Crowther",
 		"Name": "Hotcake V2",
+        "Effect": "Overdrive",
 		"Width": 2.72,
 		"Height": 4.5,
 		"Image": "crowther-hotcake-v2.png"
@@ -9768,6 +9775,7 @@
 	{
 		"Brand": "Crowther",
 		"Name": "Double Hotcake",
+        "Effect": "Overdrive",
 		"Width": 5.1,
 		"Height": 3.7,
 		"Image": "crowther-double-hotcake.png"
@@ -37388,6 +37396,7 @@
 	{
 		"Brand": "Orange",
 		"Name": "Distortion",
+        "Effect": "Distortion",
 		"Width": 3.62,
 		"Height": 4.75,
 		"Image": "orange-distortion.png"
