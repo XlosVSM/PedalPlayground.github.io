@@ -713,7 +713,7 @@ window.GetPedalData = function () {
 		dataType: "text",
 		type: "GET",
 		success: function (data) {
-			data = $.parseJSON(data.replace(/\r\n/g, "").replace(/\t/g, ""));
+			data = JSON.parse(data.replace(/\r\n/g, "").replace(/\t/g, ""));
 			const pedals = [];
 
 			for (let pedal in data) {
@@ -912,7 +912,7 @@ $body.on("click", ".item", function (e) {
 	var pedalName = $(this).attr("title");
 
 	var height = convertUnitsIfNeeded("up", $(this).attr("data-height") );
-	var width = convertUnitsIfNeeded("up", $(this).attr("data-width") );;
+	var width = convertUnitsIfNeeded("up", $(this).attr("data-width") );
 
 	var markup =
 		'<div class="panel item-info" data-id="#' +
@@ -982,7 +982,7 @@ $body.on("click", 'a[href="#back"]', function (e) {
 	e.stopPropagation();
 });
 
-$body.click(function () {
+$body.on("click", () => {
 	// reset stuff
 	$(".item-info").remove();
 	$(".canvas .selected").removeClass("selected");
