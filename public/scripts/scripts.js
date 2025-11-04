@@ -648,13 +648,14 @@ function buildPedalList(groupBy) {
 	}
 	$pedalList.empty();
 
-	if (!window.pedalData || !window.pedalData.length) return;
+	const pedals = window.pedalData
+	if (!pedals || pedals.length === 0) return;
 
 	// Group pedals by Brand or Effect
-	var groups = {};
-	window.pedalData.forEach(
+	const groups = new Map();
+	pedals.forEach(
 		function (p) {
-			var key = p[groupBy] || "Unknown";
+			const key = p[groupBy] || "Unknown";
 
 			groups[key] = groups[key] || [];
 			groups[key].push(p);
@@ -670,7 +671,7 @@ function buildPedalList(groupBy) {
 		)
 		.forEach(
 			function (groupName) {
-				var $optgroup = $("<optgroup>").attr("label", groupName);
+				const $optgroup = $("<optgroup>").attr("label", groupName);
 
 				// Sort pedals
 				groups[groupName].sort(
@@ -685,7 +686,7 @@ function buildPedalList(groupBy) {
 
 				groups[groupName].forEach(
 					function (p) {
-						var $option = $("<option>")
+						const $option = $("<option>")
 							.text(p.Brand + " " + p.Name)
 							.attr("data-width", p.Width)
 							.attr("data-height", p.Height)
