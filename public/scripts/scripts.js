@@ -588,22 +588,6 @@ function uploadPedalCanvas() {
 	input.click();
 }
 
-// function rotatePedal(pedal) {
-// 	ga("send", "event", "Pedal", "clicked", "rotate");
-// 	if ($(pedal).hasClass("rotate-90")) {
-// 		$(pedal).removeClass("rotate-90");
-// 		$(pedal).addClass("rotate-180");
-// 	} else if ($(pedal).hasClass("rotate-180")) {
-// 		$(pedal).removeClass("rotate-180");
-// 		$(pedal).addClass("rotate-270");
-// 	} else if ($(pedal).hasClass("rotate-270")) {
-// 		$(pedal).removeClass("rotate-270");
-// 	} else {
-// 		$(pedal).addClass("rotate-90");
-// 	}
-// 	savePedalCanvas();
-// }
-
 function deletePedal(pedal) {
 	$(pedal).remove();
 	deselect();
