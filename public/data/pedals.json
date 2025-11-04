@@ -24532,7 +24532,7 @@
 	},
 	{
 		"Brand": "JHS",
-		"Name": "Haunting Mid",
+		"Name": "Haunting Mids",
 		"Width": 2.93,
 		"Height": 4.98,
 		"Image": "jhs-haunting-mids.png"
@@ -27692,7 +27692,7 @@
 		"Name": "Burning Sunn",
 		"Width": 2.6,
 		"Height": 5.17,
-		"Image": "groundfx-burning-sunn.png"
+		"Image": "kodex-burning-sunn.png"
 	},
 	{
 		"Brand": "Kodex Audio",
