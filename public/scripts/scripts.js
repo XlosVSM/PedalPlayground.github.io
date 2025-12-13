@@ -293,7 +293,7 @@ jQuery(function () {
 			$("#add-custom-pedal .custom-height, #add-custom-pedal .custom-width").addClass(
 				"invalid"
 			);
-			$("#add-custom-pedal .custom-width").focus();
+			$("#add-custom-pedal .custom-width").trigger("focus");
 		} else if (width == "") {
 			$("#add-custom-pedal .custom-width").addClass("invalid").focus();
 		} else if (height == "") {
