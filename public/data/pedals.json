@@ -21604,6 +21604,13 @@
 	},
 	{
 		"Brand": "Grace Design",
+		"Name": "BiX",
+		"Width": 5.1,
+		"Height": 4.22,
+		"Image": "grace-design-bix.png"
+	},
+	{
+		"Brand": "Grace Design",
 		"Name": "Felix",
 		"Width": 9.5,
 		"Height": 5.5,
@@ -29150,6 +29157,13 @@
 	},
 	{
 		"Brand": "Klowra",
+		"Name": "Rilum Multi-head Delay",
+		"Width": 2.78,
+		"Height": 4.9,
+		"Image": "klowra-rilum-multi-head-delay.png"
+	},
+	{
+		"Brand": "Klowra",
 		"Name": "Sprout Modulation",
 		"Width": 2.78,
 		"Height": 4.9,
@@ -29161,6 +29175,13 @@
 		"Width": 2.78,
 		"Height": 4.9,
 		"Image": "klowra-vein-pitch-shifter.png"
+	},
+	{
+		"Brand": "Klowra",
+		"Name": "Verdict Poly Octaver",
+		"Width": 2.78,
+		"Height": 4.9,
+		"Image": "klowra-verdict-poly-octaver.png"
 	},
 	{
 		"Brand": "KMA",
@@ -31352,6 +31373,13 @@
 		"Width": 3.94,
 		"Height": 4.7,
 		"Image": "mad-professor-super-black.png"
+	},
+	{
+		"Brand": "Mad Professor",
+		"Name": "Super Black Mini",
+		"Width": 2.62,
+		"Height": 4.5,
+		"Image": "mad-professor-super-black-mini.png"
 	},
 	{
 		"Brand": "Mad Professor",
