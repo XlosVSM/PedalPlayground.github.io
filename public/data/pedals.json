@@ -16942,6 +16942,13 @@
 	},
 	{
 		"Brand": "EAE",
+		"Name": "Greathammer",
+		"Width": 2.6,
+		"Height": 5.05,
+		"Image": "electronic-audio-experiments-greathammer.png"
+	},
+	{
+		"Brand": "EAE",
 		"Name": "Halberd",
 		"Width": 3.7,
 		"Height": 4.95,
@@ -26109,6 +26116,13 @@
 		"Width": 2.93,
 		"Height": 4.98,
 		"Image": "jhs-moonshine-v2.png"
+	},
+	{
+		"Brand": "JHS",
+		"Name": "Morning Glory Clean",
+		"Width": 2.6,
+		"Height": 5.01,
+		"Image": "jhs-morning-glory-clean.png"
 	},
 	{
 		"Brand": "JHS",
