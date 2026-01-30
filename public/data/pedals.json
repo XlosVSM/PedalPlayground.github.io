@@ -18391,6 +18391,13 @@
 	},
 	{
 		"Brand": "Fire-Eye",
+		"Name": "Bright-Eye",
+		"Width": 1.84,
+		"Height": 3.83,
+		"Image": "fire-eye-bright-eye.png"
+	},
+	{
+		"Brand": "Fire-Eye",
 		"Name": "Red-Eye Preamp",
 		"Width": 3.28,
 		"Height": 4.38,
@@ -35888,6 +35895,13 @@
 		"Width": 2.67,
 		"Height": 4.5,
 		"Image": "mxr-m169a.png"
+	},
+	{
+		"Brand": "MXR",
+		"Name": "Carbon Copy Bright",
+		"Width": 2.67,
+		"Height": 4.5,
+		"Image": "mxr-m169se.png"
 	},
 	{
 		"Brand": "MXR",
@@ -54884,6 +54898,13 @@
 	{
 		"Brand": "Wem",
 		"Name": "Copicat Boost CCB-1",
+		"Width": 3.95,
+		"Height": 4.76,
+		"Image": "wem-ccb1-big.png"
+	},
+	{
+		"Brand": "Wem",
+		"Name": "Copicat Boost CCB-1 (Small)",
 		"Width": 2.83,
 		"Height": 4.8,
 		"Image": "wem-ccb1.png"
