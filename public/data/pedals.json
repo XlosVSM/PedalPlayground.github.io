@@ -13358,6 +13358,13 @@
 	},
 	{
 		"Brand": "Drunk Beaver",
+		"Name": "Olbia",
+		"Width": 2.6,
+		"Height": 4.9,
+		"Image": "drunk-beaver-olbia.png"
+	},
+	{
+		"Brand": "Drunk Beaver",
 		"Name": "Over Drive OD-1",
 		"Width": 2.6,
 		"Height": 4.9,
@@ -16935,6 +16942,13 @@
 	},
 	{
 		"Brand": "EAE",
+		"Name": "Greathammer",
+		"Width": 2.6,
+		"Height": 5.05,
+		"Image": "electronic-audio-experiments-greathammer.png"
+	},
+	{
+		"Brand": "EAE",
 		"Name": "Halberd",
 		"Width": 3.7,
 		"Height": 4.95,
@@ -18374,6 +18388,13 @@
 		"Width": 2.61,
 		"Height": 4.52,
 		"Image": "fire-custom-ariete.png"
+	},
+	{
+		"Brand": "Fire-Eye",
+		"Name": "Bright-Eye",
+		"Width": 1.84,
+		"Height": 3.83,
+		"Image": "fire-eye-bright-eye.png"
 	},
 	{
 		"Brand": "Fire-Eye",
@@ -21594,6 +21615,13 @@
 		"Width": 6.2,
 		"Height": 5.54,
 		"Image": "grace-design-alix.png"
+	},
+	{
+		"Brand": "Grace Design",
+		"Name": "BiX",
+		"Width": 5.1,
+		"Height": 4.22,
+		"Image": "grace-design-bix.png"
 	},
 	{
 		"Brand": "Grace Design",
@@ -26098,6 +26126,13 @@
 	},
 	{
 		"Brand": "JHS",
+		"Name": "Morning Glory Clean",
+		"Width": 2.6,
+		"Height": 5.01,
+		"Image": "jhs-morning-glory-clean.png"
+	},
+	{
+		"Brand": "JHS",
 		"Name": "Morning Glory V4",
 		"Width": 2.93,
 		"Height": 4.98,
@@ -29143,6 +29178,13 @@
 	},
 	{
 		"Brand": "Klowra",
+		"Name": "Rilum Multi-head Delay",
+		"Width": 2.78,
+		"Height": 4.9,
+		"Image": "klowra-rilum-multi-head-delay.png"
+	},
+	{
+		"Brand": "Klowra",
 		"Name": "Sprout Modulation",
 		"Width": 2.78,
 		"Height": 4.9,
@@ -29154,6 +29196,13 @@
 		"Width": 2.78,
 		"Height": 4.9,
 		"Image": "klowra-vein-pitch-shifter.png"
+	},
+	{
+		"Brand": "Klowra",
+		"Name": "Verdict Poly Octaver",
+		"Width": 2.78,
+		"Height": 4.9,
+		"Image": "klowra-verdict-poly-octaver.png"
 	},
 	{
 		"Brand": "KMA",
@@ -29784,6 +29833,13 @@
 		"Width": 2.76,
 		"Height": 4.78,
 		"Image": "laney-bcc-st.png"
+	},
+	{
+		"Brand": "Laney BCC",
+		"Name": "Supergrace Loudpedal",
+		"Width": 7.83,
+		"Height": 5.53,
+		"Image": "laney-bcc-supergrace-loudpedal.png"
 	},
 	{
 		"Brand": "Laney BCC",
@@ -31338,6 +31394,13 @@
 		"Width": 3.94,
 		"Height": 4.7,
 		"Image": "mad-professor-super-black.png"
+	},
+	{
+		"Brand": "Mad Professor",
+		"Name": "Super Black Mini",
+		"Width": 2.62,
+		"Height": 4.5,
+		"Image": "mad-professor-super-black-mini.png"
 	},
 	{
 		"Brand": "Mad Professor",
@@ -35832,6 +35895,13 @@
 		"Width": 2.67,
 		"Height": 4.5,
 		"Image": "mxr-m169a.png"
+	},
+	{
+		"Brand": "MXR",
+		"Name": "Carbon Copy Bright",
+		"Width": 2.67,
+		"Height": 4.5,
+		"Image": "mxr-m169se.png"
 	},
 	{
 		"Brand": "MXR",
@@ -41904,6 +41974,13 @@
 	},
 	{
 		"Brand": "Polyend",
+		"Name": "Endless",
+		"Width": 3.25,
+		"Height": 4.72,
+		"Image": "polyend-endless.png"
+	},
+	{
+		"Brand": "Polyend",
 		"Name": "Mess",
 		"Width": 7.09,
 		"Height": 4.91,
@@ -45768,6 +45845,13 @@
 	},
 	{
 		"Brand": "Sonicake",
+		"Name": "Source Comp",
+		"Width": 1.66,
+		"Height": 3.78,
+		"Image": "sonicake-source-comp.png"
+	},
+	{
+		"Brand": "Sonicake",
 		"Name": "Tone Group",
 		"Width": 4.88,
 		"Height": 3.69,
@@ -47343,6 +47427,13 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Brighton Treble Boost",
+		"Width": 1.71,
+		"Height": 3.7,
+		"Image": "suhr-brighton-treble-boost.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Discovery Analog Delay",
 		"Width": 4,
 		"Height": 5.09,
@@ -47364,10 +47455,24 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Dual Boost (Black)",
+		"Width": 2.71,
+		"Height": 4.57,
+		"Image": "suhr-dual-boost-black.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Eclipse",
 		"Width": 4.7,
 		"Height": 3.86,
 		"Image": "suhr-eclipse.png"
+	},
+	{
+		"Brand": "Suhr",
+		"Name": "Eclipse (Black)",
+		"Width": 4.7,
+		"Height": 3.85,
+		"Image": "suhr-eclipse-black.png"
 	},
 	{
 		"Brand": "Suhr",
@@ -47378,6 +47483,13 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Jack Rabbit (Black)",
+		"Width": 2.71,
+		"Height": 4.57,
+		"Image": "suhr-jackrabbit-black.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Koji Comp",
 		"Width": 2.67,
 		"Height": 4.54,
@@ -47385,10 +47497,24 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Koji Comp (Black)",
+		"Width": 2.67,
+		"Height": 4.54,
+		"Image": "suhr-koji-black.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Koko Boost",
 		"Width": 4.7,
 		"Height": 3.86,
 		"Image": "suhr-kokoboost.png"
+	},
+	{
+		"Brand": "Suhr",
+		"Name": "Koko Boost (Black)",
+		"Width": 2.71,
+		"Height": 4.57,
+		"Image": "suhr-koko-boost-black.png"
 	},
 	{
 		"Brand": "Suhr",
@@ -47413,10 +47539,24 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Riot (Black)",
+		"Width": 2.71,
+		"Height": 4.57,
+		"Image": "suhr-riot-black.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Riot Mini",
 		"Width": 1.74,
 		"Height": 3.7,
 		"Image": "suhr-riot-mini.png"
+	},
+	{
+		"Brand": "Suhr",
+		"Name": "Riot Mini (Black)",
+		"Width": 1.71,
+		"Height": 3.7,
+		"Image": "suhr-riot-mini-black.png"
 	},
 	{
 		"Brand": "Suhr",
@@ -47434,6 +47574,13 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Rufus (Black)",
+		"Width": 2.71,
+		"Height": 4.57,
+		"Image": "suhr-rufus-black.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Rufus Reloaded",
 		"Width": 2.67,
 		"Height": 4.54,
@@ -47448,6 +47595,20 @@
 	},
 	{
 		"Brand": "Suhr",
+		"Name": "Shiba Drive (Black)",
+		"Width": 2.71,
+		"Height": 4.57,
+		"Image": "suhr-shiba-drive-black.png"
+	},
+	{
+		"Brand": "Suhr",
+		"Name": "Shiba Drive Mini (Black)",
+		"Width": 1.71,
+		"Height": 3.7,
+		"Image": "suhr-shiba-mini-black.png"
+	},
+	{
+		"Brand": "Suhr",
 		"Name": "Shiba Drive Reloaded",
 		"Width": 2.67,
 		"Height": 4.54,
@@ -47459,6 +47620,13 @@
 		"Width": 1.74,
 		"Height": 3.7,
 		"Image": "suhr-shiba-mini.png"
+	},
+	{
+		"Brand": "Suhr",
+		"Name": "Thornicus Fuzz",
+		"Width": 4,
+		"Height": 5.09,
+		"Image": "suhr-thornicus-fuzz.png"
 	},
 	{
 		"Brand": "Suhr",
@@ -47903,6 +48071,13 @@
 	},
 	{
 		"Brand": "T-Rex Effects",
+		"Name": "Fuzztopia",
+		"Width": 4.61,
+		"Height": 4.74,
+		"Image": "trex-fuzztopia.png"
+	},
+	{
+		"Brand": "T-Rex Effects",
 		"Name": "Hobo Drive",
 		"Width": 3.9,
 		"Height": 4.83,
@@ -48057,6 +48232,13 @@
 	},
 	{
 		"Brand": "T-Rex Effects",
+		"Name": "RoomMate D'Luxe",
+		"Width": 4.61,
+		"Height": 4.74,
+		"Image": "trex-roommate-dluxe.png"
+	},
+	{
+		"Brand": "T-Rex Effects",
 		"Name": "Soulmate Acoustic",
 		"Width": 15.75,
 		"Height": 5.96,
@@ -48103,6 +48285,13 @@
 		"Width": 2.4,
 		"Height": 4.87,
 		"Image": "trex-tunemaster.png"
+	},
+	{
+		"Brand": "T-Rex Effects",
+		"Name": "Twinblaze",
+		"Width": 7.67,
+		"Height": 4.74,
+		"Image": "trex-twinblaze.png"
 	},
 	{
 		"Brand": "T-Rex Effects",
@@ -54134,6 +54323,13 @@
 	},
 	{
 		"Brand": "Wampler",
+		"Name": "Pedalhead",
+		"Width": 4.54,
+		"Height": 3.77,
+		"Image": "wampler-pedalhead.png"
+	},
+	{
+		"Brand": "Wampler",
 		"Name": "Phenom Distortion",
 		"Width": 2.5,
 		"Height": 4.58,
@@ -54187,6 +54383,13 @@
 		"Width": 1.81,
 		"Height": 3.7,
 		"Image": "wampler-ratsbane.png"
+	},
+	{
+		"Brand": "Wampler",
+		"Name": "Reflection",
+		"Width": 2.6,
+		"Height": 5,
+		"Image": "wampler-reflection.png"
 	},
 	{
 		"Brand": "Wampler",
@@ -54418,6 +54621,13 @@
 		"Width": 3.26,
 		"Height": 5.04,
 		"Image": "wayhuge-havalina.png"
+	},
+	{
+		"Brand": "Way Huge",
+		"Name": "Jumbo Fuzz Swollen Pickle XXX",
+		"Width": 3.26,
+		"Height": 5.04,
+		"Image": "wayhuge-whe407.png"
 	},
 	{
 		"Brand": "Way Huge",
@@ -54688,6 +54898,13 @@
 	{
 		"Brand": "Wem",
 		"Name": "Copicat Boost CCB-1",
+		"Width": 3.95,
+		"Height": 4.76,
+		"Image": "wem-ccb1-big.png"
+	},
+	{
+		"Brand": "Wem",
+		"Name": "Copicat Boost CCB-1 (Small)",
 		"Width": 2.83,
 		"Height": 4.8,
 		"Image": "wem-ccb1.png"
