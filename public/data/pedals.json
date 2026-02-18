@@ -2,6 +2,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv.png"
@@ -9,6 +10,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Alt Universe)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-alt-universe.png"
@@ -16,6 +18,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Blackout)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-blackout.png"
@@ -23,6 +26,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Fractured)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-fractured.png"
@@ -30,6 +34,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Hyperfade)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-hyperfade.png"
@@ -37,6 +42,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Hyperfade white)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-hyperfade-white.png"
@@ -44,6 +50,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Outline)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-outline.png"
@@ -51,6 +58,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Pink)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-pink.png"
@@ -58,6 +66,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Seafoam Green)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-seafoam-green.png"
@@ -65,6 +74,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Sky Blue Sky)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-sky-blue-sky.png"
@@ -72,6 +82,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (Teal)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-teal.png"
@@ -79,6 +90,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (White No3)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-white-no3.png"
@@ -86,6 +98,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV (White/Pink No3)",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv-white-pink-no3.png"
@@ -2718,6 +2731,7 @@
 	{
 		"Brand": "Arion",
 		"Name": "HU-8500 Stage Tuner",
+		"Effect": "Tuner",
 		"Width": 3,
 		"Height": 5,
 		"Image": "arion-hu8500.png"
@@ -2753,6 +2767,7 @@
 	{
 		"Brand": "Arion",
 		"Name": "SAD-3 Stereo Delay",
+		"Effect": "Delay",
 		"Width": 3,
 		"Height": 5,
 		"Image": "arion-sad3.png"
@@ -2767,6 +2782,7 @@
 	{
 		"Brand": "Arion",
 		"Name": "SCH-Z Stereo Chorus",
+		"Effect": "Chorus",
 		"Width": 3,
 		"Height": 5,
 		"Image": "arion-schz.png"
@@ -3845,6 +3861,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "69 Vibe",
+        "Effect": "Univibe",
 		"Width": 4.72,
 		"Height": 4.09,
 		"Image": "behringer-69-vibe.png"
@@ -3859,6 +3876,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "B-Tron III Envelope Filter",
+        "Effect": "Envelope Filter",
 		"Width": 3.94,
 		"Height": 6.89,
 		"Image": "behringer-btron3.png"
@@ -3866,6 +3884,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Bass Brassmaster Fuzz",
+		"Effect": "Fuzz",
 		"Width": 4.72,
 		"Height": 4.17,
 		"Image": "behringer-bass-brassmaster-fuzz.png"
@@ -3908,6 +3927,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Centara Overdrive",
+        "Effect": "Overdrive",
 		"Width": 4.75,
 		"Height": 4.11,
 		"Image": "behringer-centara-overdrive.png"
@@ -3915,6 +3935,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Centaur Overdrive",
+        "Effect": "Overdrive",
 		"Width": 4.75,
 		"Height": 4.12,
 		"Image": "behringer-centaur-overdrive.png"
@@ -3999,6 +4020,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "Fuzz Bender",
+		"Effect": "Fuzz",
 		"Width": 3.5,
 		"Height": 6.98,
 		"Image": "behringer-fuzz-bender.png"
@@ -4062,6 +4084,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "SF300 Super Fuzz",
+		"Effect": "Fuzz",
 		"Width": 2.76,
 		"Height": 4.84,
 		"Image": "behringer-sf300.png"
@@ -4083,6 +4106,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "TU300 Chromatic Tuner",
+		"Effect": "Tuner",
 		"Width": 2.76,
 		"Height": 4.84,
 		"Image": "behringer-tu300.png"
@@ -4090,6 +4114,7 @@
 	{
 		"Brand": "Behringer",
 		"Name": "UC200 Ultra Chorus",
+        "Effect": "Chorus",
 		"Width": 2.76,
 		"Height": 4.84,
 		"Image": "behringer-uc200.png"
@@ -5588,6 +5613,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "AW-3 Dynamic Wah",
+		"Effect": "Wah",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-aw3.png"
@@ -5602,6 +5628,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BD-2 Blues Driver",
+		"Effect": "Overdrive",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bd2.png"
@@ -5609,6 +5636,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BD-2w Blues Driver (Waza Craft)",
+		"Effect": "Overdrive",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bd2w.png"
@@ -5616,6 +5644,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BC-1x Bass Compressor",
+		"Effect": "Compressor",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bc1x.png"
@@ -5630,6 +5659,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BF-2 Flanger",
+		"Effect": "Flanger",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bf2.png"
@@ -5637,6 +5667,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BF-2B Bass Flanger",
+		"Effect": "Flanger",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bf2b.png"
@@ -5644,6 +5675,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BF-3 Flanger",
+		"Effect": "Flanger",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bf3.png"
@@ -5651,6 +5683,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "BP-1w Booster/Preamp (Waza Craft)",
+		"Effect": "Boost",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-bp1w.png"
@@ -5658,6 +5691,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-1 Chorus Ensemble",
+		"Effect": "Chorus",
 		"Width": 10.2,
 		"Height": 6.9,
 		"Image": "boss-ce1.png"
@@ -5665,6 +5699,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-2 Chorus",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ce2.png"
@@ -5672,6 +5707,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-2B Bass Chorus",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ce2b.png"
@@ -5679,6 +5715,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-2w Chorus (Waza Craft)",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ce2w.png"
@@ -5686,6 +5723,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-20 Chorus Ensemble",
+		"Effect": "Chorus",
 		"Width": 6.8125,
 		"Height": 6.1,
 		"Image": "boss-ce20.png"
@@ -5693,6 +5731,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-3 Chorus",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ce3.png"
@@ -5700,6 +5739,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CE-5 Chorus Ensemble",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ce5.png"
@@ -5707,6 +5747,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CEB-3 Bass Chorus",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ceb3.png"
@@ -5714,6 +5755,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CH-1 Super Chorus",
+		"Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ch1.png"
@@ -5721,6 +5763,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CP-1X Compressor",
+		"Effect": "Compressor",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-cp1x.png"
@@ -5728,6 +5771,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CS-2 Compression Sustainer",
+		"Effect": "Compressor",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-cs2.png"
@@ -5735,6 +5779,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "CS-3 Compression Sustainer",
+		"Effect": "Compressor",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-cs3.png"
@@ -5770,6 +5815,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-2 Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd2.png"
@@ -5777,6 +5823,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-20 Giga Delay",
+		"Effect": "Delay",
 		"Width": 6.8125,
 		"Height": 6.1,
 		"Image": "boss-dd20.png"
@@ -5784,6 +5831,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-3 Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd3.png"
@@ -5791,6 +5839,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-3T Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd3t.png"
@@ -5798,6 +5847,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-5 Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd5.png"
@@ -5805,6 +5855,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-200 Digital Delay",
+		"Effect": "Delay",
 		"Width": 4,
 		"Height": 5.44,
 		"Image": "boss-dd200.png"
@@ -5812,6 +5863,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-500 Digital Delay",
+		"Effect": "Delay",
 		"Width": 6.75,
 		"Height": 5.4,
 		"Image": "boss-dd500.png"
@@ -5819,6 +5871,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-6 Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd6.png"
@@ -5826,6 +5879,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-7 Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd7.png"
@@ -5833,6 +5887,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DD-8 Digital Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dd8.png"
@@ -5847,6 +5902,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DM-101 Delay Machine",
+		"Effect": "Delay",
 		"Width": 7.56,
 		"Height": 5.23,
 		"Image": "boss-dm101.png"
@@ -5854,6 +5910,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DM-2 Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dm2.png"
@@ -5861,6 +5918,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DM-2w Delay (Waza Craft)",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dm2w.png"
@@ -5868,6 +5926,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DM-3 Delay",
+		"Effect": "Delay",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dm3.png"
@@ -5882,6 +5941,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DS-1 Distortion",
+		"Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ds1.png"
@@ -5889,6 +5949,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DS-1-4A Anniversary Distortion",
+		"Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ds14a.png"
@@ -5896,6 +5957,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DS-1-WH Distortion",
+		"Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ds1wh.png"
@@ -5903,6 +5965,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DS-1w Distortion",
+		"Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ds1w.png"
@@ -5910,6 +5973,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DS-1X Distortion",
+		"Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ds1x.png"
@@ -5917,6 +5981,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DS-2 Turbo Distortion",
+		"Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ds2.png"
@@ -6386,6 +6451,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "OC-2 Octave",
+		"Effect": "Pitch Shifting",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-oc2.png"
@@ -6393,6 +6459,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "OC-20G Poly Octave",
+		"Effect": "Pitch Shifting",
 		"Width": 6.8125,
 		"Height": 6.1,
 		"Image": "boss-oc20g.png"
@@ -6400,6 +6467,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "OC-3 Super Octave",
+		"Effect": "Pitch Shifting",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-oc3.png"
@@ -6407,6 +6475,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "OC-5 Octave",
+		"Effect": "Pitch Shifting",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-oc5.png"
@@ -6449,6 +6518,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "OD-3 Overdrive",
+		"Effect": "Overdrive",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-od3.png"
@@ -6568,6 +6638,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "PW-3 Wah Pedal",
+		"Effect": "Wah",
 		"Width": 3.1875,
 		"Height": 7.5625,
 		"Image": "boss-pw3.png"
@@ -6583,6 +6654,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-1-BK Loop Station",
+		"Effect": "Looper",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-rc1bk.png"
@@ -6590,6 +6662,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-10R Rhythm Loop Station",
+		"Effect": "Looper",
 		"Width": 4,
 		"Height": 5.4375,
 		"Image": "boss-rc10r.png"
@@ -6597,6 +6670,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-2 Loop Station",
+		"Effect": "Looper",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-rc2.png"
@@ -6611,6 +6685,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-3 Loop Station",
+		"Effect": "Looper",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-rc3.png"
@@ -6625,6 +6700,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-300 Loop Station",
+		"Effect": "Looper",
 		"Width": 21.125,
 		"Height": 8.83,
 		"Image": "boss-rc300.png"
@@ -6632,6 +6708,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-5 Loop Station",
+		"Effect": "Looper",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-rc5.png"
@@ -6639,6 +6716,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-500 Loop Station",
+		"Effect": "Looper",
 		"Width": 6.75,
 		"Height": 5.47,
 		"Image": "boss-rc500.png"
@@ -6646,6 +6724,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RC-600 Loop Station",
+		"Effect": "Looper",
 		"Width": 17.125,
 		"Height": 6.29,
 		"Image": "boss-rc600.png"
@@ -6695,6 +6774,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "RV-200 Reverb",
+		"Effect": "Reverb",
 		"Width": 4,
 		"Height": 5.44,
 		"Image": "boss-rv200.png"
@@ -6877,6 +6957,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "TU-12EX Chromatic Tuner",
+		"Effect": "Tuner",
 		"Width": 5.81,
 		"Height": 2.11,
 		"Image": "boss-tu12ex.png"
@@ -6884,6 +6965,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "TU-12H Chromatic Tuner",
+		"Effect": "Tuner",
 		"Width": 5.81,
 		"Height": 2.06,
 		"Image": "boss-tu12h.png"
@@ -6891,6 +6973,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "TU-3 Chromatic Tuner",
+		"Effect": "Tuner",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-tu3.png"
@@ -6898,6 +6981,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "TU-3s Chromatic Tuner",
+		"Effect": "Tuner",
 		"Width": 2.875,
 		"Height": 3.3125,
 		"Image": "boss-tu3s.png"
@@ -6905,6 +6989,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "TU-3w Chromatic Tuner (Waza Craft)",
+		"Effect": "Tuner",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-tu3w.png"
@@ -8536,6 +8621,7 @@
 	{
 		"Brand": "Catalinbread",
 		"Name": "StarCrash Fuzz",
+		"Effect": "Fuzz",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-starcrash-fuzz.png"
@@ -8543,6 +8629,7 @@
 	{
 		"Brand": "Catalinbread",
 		"Name": "StarCrash Fuzz ('70s Collection)",
+		"Effect": "Fuzz",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-starcrash-sc.png"
@@ -10384,6 +10471,7 @@
 	{
 		"Brand": "Crowther",
 		"Name": "Hotcake V1",
+        "Effect": "Overdrive",
 		"Width": 2.72,
 		"Height": 4.5,
 		"Image": "crowther-hotcake-v1.png"
@@ -10391,6 +10479,7 @@
 	{
 		"Brand": "Crowther",
 		"Name": "Hotcake V2",
+        "Effect": "Overdrive",
 		"Width": 2.72,
 		"Height": 4.5,
 		"Image": "crowther-hotcake-v2.png"
@@ -10398,6 +10487,7 @@
 	{
 		"Brand": "Crowther",
 		"Name": "Double Hotcake",
+        "Effect": "Overdrive",
 		"Width": 5.1,
 		"Height": 3.7,
 		"Image": "crowther-double-hotcake.png"
@@ -10650,6 +10740,7 @@
 	{
 		"Brand": "D'Addario",
 		"Name": "CT-20 Tuner",
+		"Effect": "Tuner",
 		"Width": 2.19,
 		"Height": 4.8,
 		"Image": "daddario-ct20.png"
@@ -10657,6 +10748,7 @@
 	{
 		"Brand": "D'Addario",
 		"Name": "CT-23 Tuner",
+		"Effect": "Tuner",
 		"Width": 2.19,
 		"Height": 4.8,
 		"Image": "daddario-ct23.png"
@@ -11168,6 +11260,7 @@
 	{
 		"Brand": "Deadbeat Sound",
 		"Name": "Delay Lay Lay",
+		"Effect": "Delay",
 		"Width": 2.36,
 		"Height": 3.84,
 		"Image": "deadbeat-delay-lay-lay.png"
@@ -11189,6 +11282,7 @@
 	{
 		"Brand": "Deadbeat Sound",
 		"Name": "Playback",
+		"Effect": "Looper",
 		"Width": 1.98,
 		"Height": 3.7,
 		"Image": "deadbeat-playback.png"
@@ -11196,6 +11290,7 @@
 	{
 		"Brand": "Deadbeat Sound",
 		"Name": "Reverberation Station",
+		"Effect": "Reverb",
 		"Width": 5,
 		"Height": 5.75,
 		"Image": "deadbeat-reverberation-station.png"
@@ -12057,6 +12152,7 @@
 	{
 		"Brand": "DigiTech",
 		"Name": "HT-2 Chromatic Tuner",
+		"Effect": "Tuner",
 		"Width": 3.43,
 		"Height": 5.25,
 		"Image": "digitech-hardwire-ht-2-chromatic-tuner.png"
@@ -12064,6 +12160,7 @@
 	{
 		"Brand": "DigiTech",
 		"Name": "HT-6 Polyphonic Tuner",
+		"Effect": "Tuner",
 		"Width": 3.43,
 		"Height": 5.25,
 		"Image": "digitech-ht6.png"
@@ -15473,6 +15570,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "1440 Stereo Looper",
+		"Effect": "Looper",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-1440.png"
@@ -15487,6 +15585,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "2020 Tuner",
+		"Effect": "Tuner",
 		"Width": 1.82,
 		"Height": 3.75,
 		"Image": "ehx-2020-tuner.png"
@@ -15494,6 +15593,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "2020 Tuner v2",
+		"Effect": "Tuner",
 		"Width": 1.82,
 		"Height": 3.81,
 		"Image": "ehx-2020-tuner-v2.png"
@@ -15501,6 +15601,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "22500 Dual Stereo Looper",
+		"Effect": "Looper",
 		"Width": 6.07,
 		"Height": 5.04,
 		"Image": "ehx-22500.png"
@@ -15529,6 +15630,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "720 Stereo Looper",
+		"Effect": "Looper",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-720.png"
@@ -15571,6 +15673,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Bad Stone",
+		"Effect": "Phaser",
 		"Width": 2.82,
 		"Height": 4.5,
 		"Image": "ehx-bad-stone.png"
@@ -15578,6 +15681,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Bass Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-bass-big-muff-pi.png"
@@ -15585,6 +15689,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Bass Clone",
+		"Effect": "Chorus",
 		"Width": 2.82,
 		"Height": 4.5,
 		"Image": "ehx-bass-clone.png"
@@ -15676,6 +15781,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi Hardware Plugin",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.87,
 		"Image": "ehx-big-muff-pi-hardware-plugin.png"
@@ -15683,6 +15789,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi with Tone Wicker",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-big-muff-pi-tone-wicker.png"
@@ -15690,6 +15797,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi (Big Box)",
+		"Effect": "Fuzz",
 		"Width": 5.5,
 		"Height": 7,
 		"Image": "ehx-big-muff-box.png"
@@ -15697,6 +15805,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Big Muff Pi (Double Anniversary)",
+		"Effect": "Fuzz",
 		"Width": 5.5,
 		"Height": 7,
 		"Image": "ehx-big-muff-box-double-anniversary.png"
@@ -15704,6 +15813,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Black Russian Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 4.75,
 		"Height": 6.62,
 		"Image": "ehx-black-russian.png"
@@ -15774,6 +15884,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-big-muff.png"
@@ -15781,6 +15892,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Bass Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-bass-big-muff.png"
@@ -15788,6 +15900,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Electric Mistress",
+		"Effect": "Flanger",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-mistress.png"
@@ -15802,6 +15915,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Deluxe Memory Boy",
+		"Effect": "Delay",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-deluxe-memory-boy.png"
@@ -15914,6 +16028,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Germanium Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 6.07,
 		"Height": 4.75,
 		"Image": "ehx-germanium-big-muff-pi.png"
@@ -15956,6 +16071,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Green Russian Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 5,
 		"Height": 6.875,
 		"Image": "ehx-green-russian-original.png"
@@ -15963,6 +16079,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Green Russian Big Muff Pi Reissue",
+		"Effect": "Fuzz",
 		"Width": 2.82,
 		"Height": 4.5,
 		"Image": "ehx-green-russian.png"
@@ -15984,6 +16101,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Hog2",
+		"Effect": "Pitch Shifting",
 		"Width": 9.5,
 		"Height": 6.38,
 		"Image": "ehx-hog2.png"
@@ -15998,6 +16116,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Holy Grail",
+		"Effect": "Reverb",
 		"Width": 3.375,
 		"Height": 5.42,
 		"Image": "ehx-holy-grail.png"
@@ -16110,6 +16229,7 @@
 	{
 		"Brand": "Electro-Harmonix",
 		"Name": "Little Big Muff Pi",
+		"Effect": "Fuzz",
 		"Width": 4.19,
 		"Height": 4.75,
 		"Image": "ehx-little-big-muff-pi.png"
@@ -23012,6 +23132,7 @@
 	{
 		"Brand": "Harley Benton",
 		"Name": "PowerPlant Tuner",
+		"Effect": "Tuner",
 		"Width": 2.68,
 		"Height": 4.72,
 		"Image": "harley-benton-powerplant-tuner.png"
@@ -24174,6 +24295,7 @@
 	{
 		"Brand": "Ibanez",
 		"Name": "TS9 Tube Screamer",
+		"Effect": "Overdrive",
 		"Width": 3,
 		"Height": 4.9,
 		"Image": "ibanez-ts9.png"
@@ -25623,6 +25745,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "1966 Series Bender",
+		"Effect": "Fuzz",
 		"Width": 2.99,
 		"Height": 4.98,
 		"Image": "jhs-1966-bender.png"
@@ -25630,6 +25753,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "1966 Series Boost",
+		"Effect": "Boost",
 		"Width": 2.99,
 		"Height": 4.98,
 		"Image": "jhs-1966-boost.png"
@@ -25637,6 +25761,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "1966 Series Fuzz",
+		"Effect": "Fuzz",
 		"Width": 2.99,
 		"Height": 4.98,
 		"Image": "jhs-1966-fuzz.png"
@@ -25651,6 +25776,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "3 Series Chorus",
+		"Effect": "Chorus",
 		"Width": 2.68,
 		"Height": 4.42,
 		"Image": "jhs-3-series-chorus.png"
@@ -26021,7 +26147,7 @@
 	},
 	{
 		"Brand": "JHS",
-		"Name": "Haunting Mid",
+		"Name": "Haunting Mids",
 		"Width": 2.93,
 		"Height": 4.98,
 		"Image": "jhs-haunting-mids.png"
@@ -26190,6 +26316,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "NOTAKLÖN",
+		"Effect": "Overdrive",
 		"Width": 4.7,
 		"Height": 3.86,
 		"Image": "jhs-notaklon.png"
@@ -26197,6 +26324,7 @@
 	{
 		"Brand": "JHS",
 		"Name": "NOTAKLÖN (Black)",
+		"Effect": "Overdrive",
 		"Width": 4.7,
 		"Height": 3.86,
 		"Image": "jhs-notaklon-black.png"
@@ -29130,6 +29258,7 @@
 	{
 		"Brand": "Kliq",
 		"Name": "TinyTune",
+		"Effect": "Tuner",
 		"Width": 1.65,
 		"Height": 3.7,
 		"Image": "kliq-tinytune.png"
@@ -29137,6 +29266,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "Centaur",
+		"Effect": "Overdrive",
 		"Width": 6.5,
 		"Height": 5.03,
 		"Image": "klon-centaur.png"
@@ -29144,6 +29274,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "Centaur (Gold)",
+		"Effect": "Overdrive",
 		"Width": 6.5,
 		"Height": 5.03,
 		"Image": "klon-centaur-gold.png"
@@ -29151,6 +29282,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "Centaur (Horsey)",
+		"Effect": "Overdrive",
 		"Width": 6.5,
 		"Height": 5.03,
 		"Image": "klon-centaur-horsey.png"
@@ -29158,6 +29290,7 @@
 	{
 		"Brand": "Klon",
 		"Name": "KTR",
+		"Effect": "Overdrive",
 		"Width": 3.73,
 		"Height": 4.88,
 		"Image": "klon-ktr.png"
@@ -29405,7 +29538,7 @@
 		"Name": "Burning Sunn",
 		"Width": 2.6,
 		"Height": 5.17,
-		"Image": "groundfx-burning-sunn.png"
+		"Image": "kodex-burning-sunn.png"
 	},
 	{
 		"Brand": "Kodex Audio",
@@ -30348,6 +30481,7 @@
 	{
 		"Brand": "Line 6",
 		"Name": "DL4 Delay",
+		"Effect": "Delay",
 		"Width": 10,
 		"Height": 6,
 		"Image": "line6-dl4.png"
@@ -30355,6 +30489,7 @@
 	{
 		"Brand": "Line 6",
 		"Name": "DL4 Delay MkII",
+		"Effect": "Delay",
 		"Width": 9.25,
 		"Height": 4.5,
 		"Image": "line6-dl4-mk2.png"
@@ -33722,6 +33857,7 @@
 	{
 		"Brand": "Mooer",
 		"Name": "Baby Tuner",
+		"Effect": "Tuner",
 		"Width": 1.67,
 		"Height": 3.75,
 		"Image": "mooer-baby-tuner.png"
@@ -33799,6 +33935,7 @@
 	{
 		"Brand": "Mooer",
 		"Name": "E-lady",
+		"Effect": "Flanger",
 		"Width": 1.67,
 		"Height": 3.75,
 		"Image": "mooer-e-lady.png"
@@ -39973,6 +40110,7 @@
 	{
 		"Brand": "Orange",
 		"Name": "Distortion",
+        "Effect": "Distortion",
 		"Width": 3.62,
 		"Height": 4.75,
 		"Image": "orange-distortion.png"
@@ -46133,6 +46271,7 @@
 	{
 		"Brand": "Source Audio",
 		"Name": "Soundblox 2 Stingray Multi-Filter",
+		"Effect": "Envelope Filter",
 		"Width": 4.5,
 		"Height": 4.5,
 		"Image": "source-audio-sb2-stingray.png"
@@ -46140,6 +46279,7 @@
 	{
 		"Brand": "Source Audio",
 		"Name": "Soundblox Bass Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 4,
 		"Height": 7	,
 		"Image": "source-audio-sb-bass-env.png"
@@ -48598,6 +48738,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto Looper",
+		"Effect": "Looper",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-ditto.png"
@@ -48605,6 +48746,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto 2 Looper",
+		"Effect": "Looper",
 		"Width": 2,
 		"Height": 3.66,
 		"Image": "tc-ditto-2.png"
@@ -48612,6 +48754,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto Stereo Looper",
+		"Effect": "Looper",
 		"Width": 2.86,
 		"Height": 4.8,
 		"Image": "tc-dittostereo.png"
@@ -48619,6 +48762,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto Jam X2 Looper",
+		"Effect": "Looper",
 		"Width": 4.4,
 		"Height": 5.25,
 		"Image": "tc-ditto2-jam.png"
@@ -48626,6 +48770,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto X2 Looper",
+		"Effect": "Looper",
 		"Width": 4.4,
 		"Height": 5.25,
 		"Image": "tc-ditto2.png"
@@ -48633,6 +48778,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto x4",
+		"Effect": "Looper",
 		"Width": 9.3,
 		"Height": 5.65,
 		"Image": "tc-ditto4.png"
@@ -48640,6 +48786,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Ditto+ Looper",
+		"Effect": "Looper",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-ditto-plus.png"
@@ -48871,6 +49018,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "June-60",
+		"Effect": "Chorus",
 		"Width": 3.4,
 		"Height": 5.45,
 		"Image": "tc-june60.png"
@@ -48878,6 +49026,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "June-60 V2",
+		"Effect": "Chorus",
 		"Width": 3.4,
 		"Height": 5.45,
 		"Image": "tc-june60-v2.png"
@@ -49004,6 +49153,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune",
+		"Effect": "Tuner",
 		"Width": 2.86,
 		"Height": 4.8,
 		"Image": "tc-polytune.png"
@@ -49011,6 +49161,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 2",
+		"Effect": "Tuner",
 		"Width": 2.86,
 		"Height": 4.8,
 		"Image": "tc-polytune-2.png"
@@ -49018,6 +49169,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 2 BlackLight",
+		"Effect": "Tuner",
 		"Width": 2.86,
 		"Height": 4.8,
 		"Image": "tc-polytune-2-blacklight.png"
@@ -49025,6 +49177,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 3",
+		"Effect": "Tuner",
 		"Width": 2.86,
 		"Height": 4.8,
 		"Image": "tc-polytune-3.png"
@@ -49032,6 +49185,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 2 Mini",
+		"Effect": "Tuner",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-poly2mini.png"
@@ -49039,6 +49193,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 2 Mini Noir",
+		"Effect": "Tuner",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-poly2mini-noir.png"
@@ -49046,6 +49201,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 3 Mini",
+		"Effect": "Tuner",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-poly3mini.png"
@@ -49053,6 +49209,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune 3 Mini Noir",
+		"Effect": "Tuner",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-poly3noir.png"
@@ -49060,6 +49217,7 @@
 	{
 		"Brand": "TC Electronic",
 		"Name": "Polytune Mini",
+		"Effect": "Tuner",
 		"Width": 2,
 		"Height": 3.75,
 		"Image": "tc-polytunemini.png"
@@ -53778,6 +53936,7 @@
 	{
 		"Brand": "Walrus Audio",
 		"Name": "MAKO Series: R1",
+		"Effect": "Reverb",
 		"Width": 2.87,
 		"Height": 4.9,
 		"Image": "walrus-r1.png"
@@ -53785,6 +53944,7 @@
 	{
 		"Brand": "Walrus Audio",
 		"Name": "MAKO Series: R1 MK2",
+		"Effect": "Reverb",
 		"Width": 2.85,
 		"Height": 4.9,
 		"Image": "walrus-r1-mk2.png"
@@ -54380,6 +54540,7 @@
 	{
 		"Brand": "Wampler",
 		"Name": "Ratsbane",
+		"Effect": "Distortion",
 		"Width": 1.81,
 		"Height": 3.7,
 		"Image": "wampler-ratsbane.png"
@@ -55605,6 +55766,7 @@
 	{
 		"Brand": "Yamaha",
 		"Name": "CH-01 Chorus",
+		"Effect": "Chorus",
 		"Width": 2.75591,
 		"Height": 5.07874,
 		"Image": "yamaha-ch01.png"
@@ -55612,6 +55774,7 @@
 	{
 		"Brand": "Yamaha",
 		"Name": "CH-100 Chorus",
+		"Effect": "Chorus",
 		"Width": 2.81,
 		"Height": 5,
 		"Image": "yamaha-ch100.png"
@@ -55997,6 +56160,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Distortron",
+		"Effect": "Distortion",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-distortron.png"
@@ -56018,6 +56182,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fat Fuzz Factory",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fat-fuzzfactory.png"
@@ -56025,6 +56190,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fat Fuzz Factory Vexter",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fat-fuzzfactory-vexter.png"
@@ -56032,6 +56198,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fuzzfactory.png"
@@ -56039,6 +56206,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory 7",
+		"Effect": "Fuzz",
 		"Width": 3.64,
 		"Height": 4.8,
 		"Image": "zvex-fuzzfactory7.png"
@@ -56046,6 +56214,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory 7 Vexter",
+		"Effect": "Fuzz",
 		"Width": 3.64,
 		"Height": 4.8,
 		"Image": "zvex-fuzzfactory7-vexter.png"
@@ -56053,6 +56222,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vertical",
+		"Effect": "Fuzz",
 		"Width": 2.69,
 		"Height": 4.5,
 		"Image": "zvex-fuzzfactory-vertical.png"
@@ -56060,6 +56230,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vertical (Russian Hybrid)",
+		"Effect": "Fuzz",
 		"Width": 2.69,
 		"Height": 4.5,
 		"Image": "zvex-russian-fuzz-factory.png"
@@ -56067,6 +56238,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vexter",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fuzzfactory-vexter.png"
@@ -56074,6 +56246,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Fuzz Factory Vexter (Silver)",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-fuzzfactory-vexter-silver.png"
@@ -56256,6 +56429,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Woolly Mammoth",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-woollymammoth.png"
@@ -56263,6 +56437,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Woolly Mammoth 7",
+		"Effect": "Fuzz",
 		"Width": 3.64,
 		"Height": 4.8,
 		"Image": "zvex-woollymammoth7.png"
@@ -56270,6 +56445,7 @@
 	{
 		"Brand": "Zvex",
 		"Name": "Woolly Mammoth Vexter",
+		"Effect": "Fuzz",
 		"Width": 4.68,
 		"Height": 2.38,
 		"Image": "zvex-woollymammoth-vexter.png"
