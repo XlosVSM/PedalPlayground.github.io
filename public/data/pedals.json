@@ -582,6 +582,7 @@
 	{
 		"Brand": "Aguilar",
 		"Name": "Chorusaurus",
+		"Effect": "Chorus",
 		"Width": 2.7,
 		"Height": 5.5,
 		"Image": "aguilar-chorusaurus.png"
@@ -589,6 +590,7 @@
 	{
 		"Brand": "Aguilar",
 		"Name": "Chorusaurus Mk2",
+		"Effect": "Chorus",
 		"Width": 2.5,
 		"Height": 4.8,
 		"Image": "aguilar-chorusaurus-mk2.png"
@@ -617,6 +619,7 @@
 	{
 		"Brand": "Aguilar",
 		"Name": "Filter Twin",
+		"Effect": "Envelope Filter",
 		"Width": 2.7,
 		"Height": 5.5,
 		"Image": "aguilar-filter-twin.png"
@@ -1807,6 +1810,7 @@
 	{
 		"Brand": "Analog.Man",
 		"Name": "Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 2.83,
 		"Height": 4.56,
 		"Image": "analogman-envelope-filter.png"
@@ -5606,6 +5610,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "AD-2 Acoustic Preamp",
+        "Effect": "Preamp",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-ad2.png"
@@ -5787,6 +5792,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DA-2 Adaptive Distortion",
+        "Effect": "Distortion",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-da2.png"
@@ -5794,6 +5800,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DC-2 Dimension C",
+        "Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dc2.png"
@@ -5801,6 +5808,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DC-2w Dimension C (Waza Craft)",
+        "Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dc2w.png"
@@ -5808,6 +5816,7 @@
 	{
 		"Brand": "BOSS",
 		"Name": "DC-3 Digital Dimension",
+        "Effect": "Chorus",
 		"Width": 2.875,
 		"Height": 5.125,
 		"Image": "boss-dc3.png"
@@ -12061,6 +12070,7 @@
 	{
 		"Brand": "DigiTech",
 		"Name": "CR-7 Stereo Chorus",
+        "Effect": "Chorus",
 		"Width": 3.43,
 		"Height": 5.25,
 		"Image": "digitech-cr7.png"
@@ -12168,6 +12178,7 @@
 	{
 		"Brand": "DigiTech",
 		"Name": "Hyper Phase Stereo Phaser",
+        "Effect": "Phaser",
 		"Width": 3.13,
 		"Height": 4.87,
 		"Image": "digitech-hyper-phase.png"
@@ -12238,6 +12249,7 @@
 	{
 		"Brand": "DigiTech",
 		"Name": "Multi Chorus",
+        "Effect": "Chorus",
 		"Width": 3.13,
 		"Height": 4.87,
 		"Image": "digitech-multi-chorus.png"
@@ -12651,6 +12663,7 @@
 	{
 		"Brand": "DOD",
 		"Name": "Envelope Filter 440",
+		"Effect": "Envelope Filter",
 		"Width": 2.93,
 		"Height": 4.68,
 		"Image": "dod-440.png"
@@ -20080,6 +20093,7 @@
 	{
 		"Brand": "FTelettronica",
 		"Name": "Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 2.79528,
 		"Height": 4.6063,
 		"Image": "ftelettronica-envelope-filter.png"
@@ -20360,6 +20374,7 @@
 	{
 		"Brand": "FTelettronica",
 		"Name": "Tuwat Resonant Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 5.19685,
 		"Height": 5.98425,
 		"Image": "ftelettronica-tuwat.png"
@@ -31603,6 +31618,7 @@
 	{
 		"Brand": "Maestro",
 		"Name": "Agena Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 3.54,
 		"Height": 5.28,
 		"Image": "maestro-agena-envelope-filter.png"
@@ -35938,6 +35954,7 @@
 	{
 		"Brand": "MXR",
 		"Name": "Bass Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 2.67,
 		"Height": 4.5,
 		"Image": "mxr-m82.png"
@@ -46294,6 +46311,7 @@
 	{
 		"Brand": "Source Audio",
 		"Name": "Soundblox Guitar Envelope Filter",
+		"Effect": "Envelope Filter",
 		"Width": 4,
 		"Height": 7	,
 		"Image": "source-audio-sb-guitar-env.png"
