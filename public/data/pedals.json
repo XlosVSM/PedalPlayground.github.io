@@ -2,6 +2,7 @@
 	{
 		"Brand": "1981 Inventions",
 		"Name": "DRV",
+		"Effect": "Distortion",
 		"Width": 3.7,
 		"Height": 4.58,
 		"Image": "1981-inventions-drv.png"
