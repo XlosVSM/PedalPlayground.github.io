@@ -6533,17 +6533,17 @@
 	},
 	{
 		"Brand": "BOSS",
-		"Name": "Gigmaster 5",
+		"Name": "Gigcaster 5",
 		"Width": 7,
 		"Height": 8.53,
-		"Image": "boss-gigmaster-5.png"
+		"Image": "boss-gigcaster-5.png"
 	},
 	{
 		"Brand": "BOSS",
-		"Name": "Gigmaster 8",
+		"Name": "Gigcaster 8",
 		"Width": 8.53,
 		"Height": 10.6,
-		"Image": "boss-gigmaster-8.png"
+		"Image": "boss-gigcaster-8.png"
 	},
 	{
 		"Brand": "BOSS",
