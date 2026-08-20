@@ -338,10 +338,10 @@
 	},
 	{
 		"Brand": "Abominable",
-		"Name": "Oppresive Cult Destroyer",
+		"Name": "Oppressive Cult Destroyer",
 		"Width": 3.7,
 		"Height": 4.8,
-		"Image": "abominable-oppresive-cult-destroyer.png"
+		"Image": "abominable-oppressive-cult-destroyer.png"
 	},
 	{
 		"Brand": "Abominable",
@@ -1024,7 +1024,7 @@
 	},
 	{
 		"Brand": "Alexander",
-		"Name": "Calavera",
+		"Name": "La Calavera",
 		"Width": 2.89,
 		"Height": 4.88,
 		"Image": "alexander-calavera.png"
@@ -1164,14 +1164,14 @@
 	},
 	{
 		"Brand": "Alexander",
-		"Name": "Neo Footswitch",
+		"Name": "Neo Link",
 		"Width": 4,
 		"Height": 2.36,
 		"Image": "alexander-neo-link.png"
 	},
 	{
 		"Brand": "Alexander",
-		"Name": "Neo-Link",
+		"Name": "Neo Footswitch",
 		"Width": 2,
 		"Height": 2,
 		"Image": "alexander-neo-footswitch.png"
@@ -1892,14 +1892,14 @@
 	},
 	{
 		"Brand": "Analog.Man",
-		"Name": "Sunface",
+		"Name": "Sun Face",
 		"Width": 2.79,
 		"Height": 4.5,
 		"Image": "analogman-sunface.png"
 	},
 	{
 		"Brand": "Analog.Man",
-		"Name": "Sunlion",
+		"Name": "Sun Lion",
 		"Width": 4.7,
 		"Height": 3.97,
 		"Image": "analogman-sunlion.png"
@@ -3606,133 +3606,133 @@
 		"Image": "bbe-sonic-stomp.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Arctic White Fuzz",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-arctic-white-fuzz.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Baby Pink Booster",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-baby-pink.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "BlueBerry",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-blueberry.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Bumble Bee",
 		"Width": 2.6,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-bumble-bee.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Burgundy BossHorn Fuzz",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-burgundy-bosshorn.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Candy Apple Fuzz",
 		"Width": 2.6,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-candy-apple.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Dyna Red Dist.",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-dyna-red.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Emerald Green Distortion",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-emerald-green-dist.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Emerald Green OD",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-emerald-green-od.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Honey Bee",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-honey-bee.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Little Red Trebler",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-little-red-trebler.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Mint Green Mini Vibe",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-mint-green.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Model G",
 		"Width": 2.71,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-model-g.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Model Hs",
 		"Width": 2.62,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-model-hs.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Pale Green Compressor",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-pale-green.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Pink Purple Fuzz",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-pink-purple.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Sea Blue EQ",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-sea-blue.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Silver Bee OD",
 		"Width": 2.68,
 		"Height": 4.4,
 		"Image": "bearfoot-fx-silver-bee.png"
 	},
 	{
-		"Brand": "Bearfoot Fx",
+		"Brand": "Bearfoot FX",
 		"Name": "Sparkling Yellow OD1",
 		"Width": 2.68,
 		"Height": 4.4,
@@ -5245,10 +5245,10 @@
 	},
 	{
 		"Brand": "Blackout Effectors",
-		"Name": "Wetstone",
+		"Name": "Whetstone",
 		"Width": 5.63,
 		"Height": 4.63,
-		"Image": "blackout-wetstone.png"
+		"Image": "blackout-whetstone.png"
 	},
 	{
 		"Brand": "Blackstone",
@@ -5420,7 +5420,7 @@
 	},
 	{
 		"Brand": "BLAMMO! Electronics",
-		"Name": "The Psychclops",
+		"Name": "The Psychclops MkI",
 		"Width": 2.88,
 		"Height": 5.32,
 		"Image": "blammo-the-psychclops.png"
@@ -5640,7 +5640,7 @@
 		"Name": "Pig",
 		"Width": 2.6,
 		"Height": 4.97,
-		"Image": "bluecolander-pig.png"
+		"Image": "blue-colander-pig.png"
 	},
 	{
 		"Brand": "Blue Colander",
@@ -5917,7 +5917,7 @@
 	},
 	{
 		"Brand": "Boredbrain",
-		"Name": "Intrfx v2",
+		"Name": "IntrFX V2",
 		"Width": 4,
 		"Height": 4.01,
 		"Image": "boredbrain-intrfx-v2.png"
@@ -5931,14 +5931,14 @@
 	},
 	{
 		"Brand": "Boredbrain",
-		"Name": "Patchulator v2",
+		"Name": "Patchulator V2",
 		"Width": 6.18,
 		"Height": 6.18,
 		"Image": "boredbrain-patchulator-v2.png"
 	},
 	{
 		"Brand": "Boredbrain",
-		"Name": "Terminal v2",
+		"Name": "Terminal V2",
 		"Width": 2.65,
 		"Height": 4.5,
 		"Image": "boredbrain-terminal-v2.png"
@@ -8917,7 +8917,7 @@
 		"Name": "Manx Loaghtan Fuzz (Reissue)",
 		"Width": 2.7,
 		"Height": 4.5,
-		"Image": "catalinbread-manx-loughtan-ri.png"
+		"Image": "catalinbread-manx-loaghtan-ri.png"
 	},
 	{
 		"Brand": "Catalinbread",
@@ -9054,7 +9054,7 @@
 	},
 	{
 		"Brand": "Catalinbread",
-		"Name": "Sinkhole (Arthaus)",
+		"Name": "Sinkhole (Arthaus Collection)",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-sinkhole-arthaus.png"
@@ -9075,7 +9075,7 @@
 	},
 	{
 		"Brand": "Catalinbread",
-		"Name": "Soft Focus (Arthaus)",
+		"Name": "Soft Focus (Arthaus Collection)",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-soft-focus-arthaus.png"
@@ -9138,10 +9138,10 @@
 	},
 	{
 		"Brand": "Catalinbread",
-		"Name": "Super Chil Picoso",
+		"Name": "Super Chili Picoso",
 		"Width": 2.7,
 		"Height": 4.5,
-		"Image": "catalinbread-super-chil-picoso.png"
+		"Image": "catalinbread-super-chili-picoso.png"
 	},
 	{
 		"Brand": "Catalinbread",
@@ -9159,7 +9159,7 @@
 	},
 	{
 		"Brand": "Catalinbread",
-		"Name": "Talisman (Arthaus)",
+		"Name": "Talisman (Arthaus Collection)",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-talisman-arthaus.png"
@@ -9194,7 +9194,7 @@
 	},
 	{
 		"Brand": "Catalinbread",
-		"Name": "Topanga (Arthaus)",
+		"Name": "Topanga (Arthaus Collection)",
 		"Width": 2.7,
 		"Height": 4.5,
 		"Image": "catalinbread-topanga-arthaus.png"
@@ -10867,17 +10867,17 @@
 	},
 	{
 		"Brand": "Cornerstone",
-		"Name": "Imperivm",
+		"Name": "Imperium",
 		"Width": 4.7,
 		"Height": 3.82,
-		"Image": "cornerstone-imperivm.png"
+		"Image": "cornerstone-imperium.png"
 	},
 	{
 		"Brand": "Cornerstone",
-		"Name": "Imperivm V2",
+		"Name": "Imperium V2",
 		"Width": 4.7,
 		"Height": 3.77,
-		"Image": "cornerstone-imperivm-v2.png"
+		"Image": "cornerstone-imperium-v2.png"
 	},
 	{
 		"Brand": "Cornerstone",
@@ -12504,7 +12504,7 @@
 		"Image": "deep-trip-hellbender.png"
 	},
 	{
-		"Brand": "Deepspace Devices",
+		"Brand": "Deep Space Devices",
 		"Name": "Red Ghost",
 		"Width": 2.9,
 		"Height": 4.8,
@@ -13492,7 +13492,7 @@
 	},
 	{
 		"Brand": "DLS Effects",
-		"Name": "Rotospin",
+		"Name": "RotoSPIN",
 		"Width": 3.7,
 		"Height": 4.96,
 		"Image": "dls-rotospin.png"
@@ -13513,7 +13513,7 @@
 	},
 	{
 		"Brand": "DOD",
-		"Name": "Bifet Boost 410",
+		"Name": "BiFET Boost 410",
 		"Width": 2.93,
 		"Height": 4.68,
 		"Image": "dod-410.png"
@@ -13576,7 +13576,7 @@
 	},
 	{
 		"Brand": "DOD",
-		"Name": "Gonkulator Ringmod",
+		"Name": "Gonkulator",
 		"Width": 2.93,
 		"Height": 4.68,
 		"Image": "dod-gonkulator.png"
@@ -13611,7 +13611,7 @@
 	},
 	{
 		"Brand": "DOD",
-		"Name": "Meatbox Subsynth",
+		"Name": "Meatbox",
 		"Width": 2.93,
 		"Height": 4.68,
 		"Image": "dod-meatbox.png"
@@ -13729,14 +13729,14 @@
 		"Image": "dod-yjm308.png"
 	},
 	{
-		"Brand": "Does It Doom",
+		"Brand": "Does It Doom?",
 		"Name": "Aghartha",
 		"Width": 2.6,
 		"Height": 5.01,
 		"Image": "does-it-doom-aghartha.png"
 	},
 	{
-		"Brand": "Does It Doom",
+		"Brand": "Does It Doom?",
 		"Name": "Doomcaster",
 		"Width": 2.6,
 		"Height": 4.94,
@@ -13996,7 +13996,7 @@
 	},
 	{
 		"Brand": "Dr Scientist",
-		"Name": "Bitquest",
+		"Name": "BitQuest",
 		"Width": 2.71,
 		"Height": 4.97,
 		"Image": "dr-scientist-bitquest.png"
@@ -15263,7 +15263,7 @@
 	},
 	{
 		"Brand": "Dwarfcraft Devices",
-		"Name": "Shefuzz",
+		"Name": "SheFuzz",
 		"Width": 3,
 		"Height": 4.8,
 		"Image": "dwarfcraft-shefuzz.png"
@@ -16253,7 +16253,7 @@
 		"Name": "DPhaser",
 		"Width": 3.02,
 		"Height": 4.54,
-		"Image": "ebs-dynaverb-dphaser.png"
+		"Image": "ebs-dphaser.png"
 	},
 	{
 		"Brand": "EBS",
@@ -18259,10 +18259,10 @@
 	},
 	{
 		"Brand": "EAE",
-		"Name": "Surveyer",
+		"Name": "Surveyor",
 		"Width": 2.6,
 		"Height": 4.99,
-		"Image": "electronic-audio-experiments-surveyer.png"
+		"Image": "electronic-audio-experiments-surveyor.png"
 	},
 	{
 		"Brand": "EAE",
@@ -18713,21 +18713,21 @@
 		"Image": "empty-head-the-external-internal.png"
 	},
 	{
-		"Brand": "Endorphines",
+		"Brand": "Endorphin.es",
 		"Name": "Ghost",
 		"Width": 7.48,
 		"Height": 4.89,
 		"Image": "endorphines-ghost.png"
 	},
 	{
-		"Brand": "Endorphines",
+		"Brand": "Endorphin.es",
 		"Name": "Golden Master (Black)",
 		"Width": 4.95,
 		"Height": 4.89,
 		"Image": "endorphines-golden-master-black.png"
 	},
 	{
-		"Brand": "Endorphines",
+		"Brand": "Endorphin.es",
 		"Name": "Golden Master (Silver)",
 		"Width": 4.95,
 		"Height": 4.89,
@@ -18945,7 +18945,7 @@
 	},
 	{
 		"Brand": "Eventide",
-		"Name": "Tricerachorus",
+		"Name": "TriceraChorus",
 		"Width": 4,
 		"Height": 4.54,
 		"Image": "eventide-tricerachorus.png"
@@ -19161,8 +19161,8 @@
 		"Image": "fairfield-unpleasant-surprise.png"
 	},
 	{
-		"Brand": "Fame Fernfeld",
-		"Name": "7 Band Equalizer",
+		"Brand": "Fame",
+		"Name": "Fernfeld 7 Band Equalizer",
 		"Width": 1.77,
 		"Height": 3.75,
 		"Image": "fame-fernfeld-7-band-eq.png"
@@ -20254,7 +20254,7 @@
 	},
 	{
 		"Brand": "Formula B",
-		"Name": "Qfilter",
+		"Name": "Q Filter",
 		"Width": 3.7,
 		"Height": 4.89,
 		"Image": "formula-b-qfilter.png"
@@ -20415,7 +20415,7 @@
 	},
 	{
 		"Brand": "Foxgear",
-		"Name": "Qboost",
+		"Name": "QBoost",
 		"Width": 2.36,
 		"Height": 4.84,
 		"Image": "foxgear-qboost.png"
@@ -20527,7 +20527,7 @@
 	},
 	{
 		"Brand": "Foxrox",
-		"Name": "Aquavibe",
+		"Name": "AquaVibe",
 		"Width": 3.85,
 		"Height": 5.15,
 		"Image": "foxrox-aquavibe.png"
@@ -20716,7 +20716,7 @@
 	},
 	{
 		"Brand": "Frantone Electronics",
-		"Name": "Peachfuzz Fuzztone",
+		"Name": "Peachfuzz",
 		"Width": 5.06,
 		"Height": 3.75,
 		"Image": "frantone-peachfuzz.png"
@@ -20799,7 +20799,7 @@
 		"Image": "fredric-dresden-synth-fuzz.png"
 	},
 	{
-		"Brand": "Fredric Effect2",
+		"Brand": "Fredric Effects",
 		"Name": "Foxrite",
 		"Width": 2.62,
 		"Height": 4.72,
@@ -21381,7 +21381,7 @@
 	},
 	{
 		"Brand": "FTelettronica",
-		"Name": "Bass Fuckin’ Drive",
+		"Name": "Bass Fuckin' Drive",
 		"Width": 5.07874,
 		"Height": 3.89764,
 		"Image": "ftelettronica-bass-fuckin-drive.png"
@@ -21465,7 +21465,7 @@
 	},
 	{
 		"Brand": "FTelettronica",
-		"Name": "EvenHarmonicsEmphasizer",
+		"Name": "Even Harmonics Emphasizer",
 		"Width": 2.79528,
 		"Height": 4.6063,
 		"Image": "ftelettronica-even-harmonics.png"
@@ -22052,7 +22052,7 @@
 		"Image": "flb-skeleton-key.png"
 	},
 	{
-		"Brand": "Fuzzhugger",
+		"Brand": "FuzzHugger",
 		"Name": "Algal Bloom 7K DLX",
 		"Width": 3.7,
 		"Height": 4.92,
@@ -23628,7 +23628,7 @@
 	},
 	{
 		"Brand": "Greer Amps",
-		"Name": "Tarpit",
+		"Name": "TarPit",
 		"Width": 4.67,
 		"Height": 3.8,
 		"Image": "greer-tarpit.png"
@@ -24265,7 +24265,7 @@
 	},
 	{
 		"Brand": "Hangman fx",
-		"Name": "The Luma Expresss",
+		"Name": "The Luma Express",
 		"Width": 2.68,
 		"Height": 2.36,
 		"Image": "hangmanfx-the-luma-express.png"
@@ -24880,42 +24880,42 @@
 		"Image": "haunted-labs-witch-hammer.png"
 	},
 	{
-		"Brand": "Headrush",
+		"Brand": "HeadRush",
 		"Name": "Core",
 		"Width": 16.08,
 		"Height": 9.27,
 		"Image": "headrush-core.png"
 	},
 	{
-		"Brand": "Headrush",
+		"Brand": "HeadRush",
 		"Name": "Flex Prime",
 		"Width": 11.6,
 		"Height": 5.79,
 		"Image": "headrush-flex-prime.png"
 	},
 	{
-		"Brand": "Headrush",
+		"Brand": "HeadRush",
 		"Name": "Gigboard",
 		"Width": 12.96,
 		"Height": 9,
 		"Image": "headrush-gigboard.png"
 	},
 	{
-		"Brand": "Headrush",
+		"Brand": "HeadRush",
 		"Name": "MX5",
 		"Width": 11.6,
 		"Height": 5.94,
 		"Image": "headrush-mx5.png"
 	},
 	{
-		"Brand": "Headrush",
+		"Brand": "HeadRush",
 		"Name": "Pedalboard",
 		"Width": 23.6,
 		"Height": 11.53,
 		"Image": "headrush-pedalboard.png"
 	},
 	{
-		"Brand": "Headrush",
+		"Brand": "HeadRush",
 		"Name": "Prime",
 		"Width": 25.68,
 		"Height": 12.08,
